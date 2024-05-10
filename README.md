@@ -6,7 +6,7 @@
 1. Click on the dropdown located beside Branches and below the filename(Flight_Delay_Predection)
 2. select main in the dropdown
 3. Again click on the same dropdown
-4. Type name of the branch tobe created
+4. Type name of the branch to be created in dropdown search
 5. select the option create branch from main
 ```
 
