@@ -17,11 +17,6 @@ for i in df.select_dtypes(include="object").columns:
 
 print(df.describe().T)
 print(df.describe(include="object").T)
-#histogram to understand the distribution
-for i in df.select_dtypes(include="number").columns:
-    sns.histplot(data=df,x=i)
-    plt.title(f'Histogram of {i}')
-    plt.show()
 #ploting boxplot
 for i in df.select_dtypes(include="number").columns:
     sns.boxplot(data=df,x=i)
@@ -29,7 +24,7 @@ for i in df.select_dtypes(include="number").columns:
     plt.show()
 print(df.select_dtypes(include="number").columns)
 #scatter plot
-for i in ['year', 'month', 'arr_flights', 'arr_del15', 'carrier_ct', 'weather_ct',
+for i in [ 'arr_del15', 'carrier_ct', 'weather_ct',
        'nas_ct', 'security_ct', 'late_aircraft_ct', 'arr_cancelled',
        'arr_diverted', 'carrier_delay', 'weather_delay',
        'nas_delay', 'security_delay', 'late_aircraft_delay']:
