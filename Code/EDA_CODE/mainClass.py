@@ -1,5 +1,3 @@
-# my_ml_project/main.py
-
 from dataLoader import DataLoader
 from model import MyModel
 from helperFunctions import print_evaluation_metrics

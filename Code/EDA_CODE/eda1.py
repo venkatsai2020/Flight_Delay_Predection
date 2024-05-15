@@ -26,9 +26,9 @@ for i in df.select_dtypes(include="number").columns:
 print(df.select_dtypes(include="number").columns)
 # scatter plot
 for i in ['arr_del15', 'carrier_ct', 'weather_ct',
-          'nas_ct', 'security_ct','late_aircraft_ct','arr_cancelled',
-          'arr_diverted', 'carrier_delay','weather_delay',
-          'nas_delay', 'security_delay','late_aircraft_delay']:
+          'nas_ct', 'security_ct', 'late_aircraft_ct', 'arr_cancelled',
+          'arr_diverted', 'carrier_delay', 'weather_delay',
+          'nas_delay', 'security_delay', 'late_aircraft_delay']:
     sns.scatterplot(data=df, x=i, y='arr_delay')
     plt.title(f'Scatter plot of {i} vs. arr_delay')
     plt.show()

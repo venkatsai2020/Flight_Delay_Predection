@@ -1,9 +1,6 @@
 # my_ml_project/data/data_loader.py
 
 import pandas as pd
-from sklearn.model_selection import train_test_split
-
-
 class DataLoader:
     def __init__(self, file_path):
         self.file_path = file_path
