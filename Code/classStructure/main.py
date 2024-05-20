@@ -14,14 +14,15 @@ def main():
 
     data_processor = DataProcessor()
 
-    print(data_processor.printHead(data))
-    print("\ndata types:",data_processor.printDatatypes(data))
-    print("\nSummary statistics:",data_processor.printSummary(data))
-    print("\nMissing values:",data_processor.printMissingvalues(data))
-    data_processor.plotHist(data)
+   # print(data_processor.printHead(data))
+   # print("\ndata types:",data_processor.printDatatypes(data))
+   # print("\nSummary statistics:",data_processor.printSummary(data))
+   # print("\nMissing values:",data_processor.printMissingvalues(data))
+   # data_processor.plotHist(data)
     data_processor.plotBox(data)
-    data_processor.chartBar(data)
-    data_processor.plotHeatmap(data)
+    #data_processor.chartBar(data)
+    #data_processor.plotHeatmap(data)
+
 
 
     ''' processor = DataProcessor()

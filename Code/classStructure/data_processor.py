@@ -1,5 +1,6 @@
 from sklearn.model_selection import train_test_split
 import pandas as pd
+import numpy as np
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -23,8 +24,14 @@ class DataProcessor:
         data.hist()
         print(plt.show())
     def plotBox(self,data):
-        data.boxplot()
-        print(plt.show())
+        numeric_columns = data.select_dtypes(include=[np.number]).columns
+        for column in numeric_columns:
+            plt.figure(figsize=(10, 5))
+            plt.boxplot(data[column].dropna(), vert=False)
+            plt.title(f'Box Plot for {column}')
+            plt.xlabel(column)
+            print(plt.show())
+
     def chartBar(self,data):
         data['carrier'].value_counts().plot(kind='bar')
         print(plt.show())
