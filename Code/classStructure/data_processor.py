@@ -18,8 +18,7 @@ class DataProcessor:
     def printSummary(self, data):
         return data.describe()
 
-    def printMissingvalues(self, data):
-        return data.isnull().sum()
+
     def plotHist(self,data):
         data.hist()
         print(plt.show())
