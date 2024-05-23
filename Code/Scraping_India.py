@@ -5,7 +5,8 @@ import pandas as pd
 from selenium.webdriver.common.by import By
 
 driver = webdriver.Chrome()
-driver.get("https://www.flightradar24.com/data/airports/hyd")
+# driver.get("https://www.flightradar24.com/data/airports/hyd")
+driver.get("https://www.flightradar24.com/data/airports/hyd/arrivals")
 time.sleep(10)
 
 try:
@@ -54,5 +55,8 @@ for row in table.find_elements(By.TAG_NAME, "tr"):
 df = pd.DataFrame(data, columns=['TIME', 'FLIGHT', 'FROM', 'AIRLINE', 'AIRCRAFT', '','STATUS'])
 # df['DATE'] = date
 # df['TO'] = To
+
+output_filename = r"C:\Users\kiran\OneDrive\Desktop\Files\Step2\Flight_Delay_Predection\Data\Scraped_data.xlsx"
+df.to_excel(output_filename, index=False)
 
 print(df)
