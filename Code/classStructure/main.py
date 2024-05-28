@@ -3,6 +3,7 @@ from data_processor import DataProcessor
 from data_splitter import DataSplitter
 from missingvalueHandler import MissingValueHandler
 from outlierhandler import OutlierHandler
+from sklearn.model_selection import train_test_split
 
 from ml_model import MLModel
 
@@ -14,53 +15,78 @@ def main():
     file_path = r'..\..\Data\Airline_Delay_Cause.csv'
     data_loader = DataLoader(file_path)
     data = data_loader.load_data()
+    print("\n\n DATA SET:\n\n")
+    print("________________________________________________________\n\n")
     print(data)
     data_processor = DataProcessor()
 
-   # print(data_processor.printHead(data))
-   #print("\ndata types:",data_processor.printDatatypes(data))
-   # print("\nSummary statistics:",data_processor.printSummary(data))
-
+    # print(data_processor.printHead(data))
+    # print("\ndata types:",data_processor.printDatatypes(data))
+    # print("\nSummary statistics:",data_processor.printSummary(data))
+    print("\n\n\n\n\nSPLITTING DATA:\n\n")
+    print("________________________________________________________\n\n")
     data_splitter = DataSplitter(data, target_column='arr_delay')
-    data_splitter.split_data()
+    X_train, X_test, y_train, y_test = data_splitter.split_data()
     data_splitter.print_shapes()
     # handling missing values
-    missing_value_handler = MissingValueHandler(data_splitter.X_train, data_splitter.y_train)
-    missing_value_handler.print_missing_values()
-    X_train_clean, y_train_clean = missing_value_handler.get_cleaned_data()
+    print("\n\n\n\n\nHANDLING MISSING VALUES(or NULL VALUES):\n\n")
+    print("________________________________________________________\n\n")
+    features_with_null = [
+        'arr_flights', 'arr_del15', 'carrier_ct', 'weather_ct', 'nas_ct',
+        'security_ct', 'late_aircraft_ct', 'arr_cancelled', 'arr_diverted',
+        'carrier_delay', 'weather_delay', 'nas_delay', 'security_delay',
+        'late_aircraft_delay'
+    ]
+    handler = MissingValueHandler(data, features_with_null)
+    handler.print_missing_values()
+    X = data.drop(columns='arr_delay')
+    y = data['arr_delay']
+    #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Check null values in training data
+    handler.check_null_values(X_train, y_train)
+
+    # Remove null values from training data
+    X_train_cleaned, y_train_cleaned = handler.remove_null_values(X_train, y_train)
+
+    # Print cleaned missing values
+    handler.print_cleaned_missing_values(X_train_cleaned)
+
     # Print cleaned data shapes
-    print("X_train_clean shape:", X_train_clean.shape)
-    print("y_train_clean shape:", y_train_clean.shape)
-#detecting and removing outliers
+    print("X_train_clean shape:", X_train_cleaned.shape)
+    print("y_train_clean shape:", y_train_cleaned.shape)
+
+    print("\n\n\n\n\nHANDLING OUTLIERS:\n\n")
+    print("________________________________________________________\n\n")
+    # detecting and removing outliers
     # Instantiate the OutlierHandler
     outlier_handler = OutlierHandler()
 
     # Display outliers in X_train
     print("Outliers in X_train:")
-    outlier_handler.display_outliers(X_train_clean)
+    outlier_handler.display_outliers(X_train_cleaned)
+    outlier_handler.count_outliers(X_train_cleaned)
 
     # Display outliers in y_train
     print("\nOutliers in y_train:")
-    outlier_handler.display_outliers(X_train_clean)
+    outlier_handler.display_outliers(X_train_cleaned)
 
     # Remove outliers from X_train
-    X_train_cleaned = outlier_handler.remove_outliers(X_train_clean)
+    X_train_cleaned = outlier_handler.remove_outliers(X_train_cleaned)
 
     # Get the index of cleaned rows
     cleaned_indices = X_train_cleaned.index
 
     # Remove corresponding rows from y_train
-    y_train_cleaned = X_train_clean.loc[cleaned_indices]
+    y_train_cleaned = X_train_cleaned.loc[cleaned_indices]
 
     # Check the shape of cleaned datasets
     print("\nShape of X_train after removing outliers:", X_train_cleaned.shape)
     print("Shape of y_train after removing outliers:", y_train_cleaned.shape)
-   # data_processor.plotHist(data)
-    #data_processor.plotBox(data)
-    #data_processor.chartBar(data)
-    #data_processor.plotHeatmap(data)
-
-
+    # data_processor.plotHist(data)
+    # data_processor.plotBox(data)
+    # data_processor.chartBar(data)
+    # data_processor.plotHeatmap(data)
 
     ''' processor = DataProcessor()
     X, y = processor.preprocess(data)
@@ -84,3 +110,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

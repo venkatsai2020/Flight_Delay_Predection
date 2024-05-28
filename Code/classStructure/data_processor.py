@@ -5,6 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+
 class DataProcessor:
     def __init__(self):
         self.scaler = StandardScaler()
@@ -18,11 +19,11 @@ class DataProcessor:
     def printSummary(self, data):
         return data.describe()
 
-
-    def plotHist(self,data):
+    def plotHist(self, data):
         data.hist()
         print(plt.show())
-    def plotBox(self,data):
+
+    def plotBox(self, data):
         numeric_columns = data.select_dtypes(include=[np.number]).columns
         for column in numeric_columns:
             plt.figure(figsize=(10, 5))
@@ -31,7 +32,7 @@ class DataProcessor:
             plt.xlabel(column)
             print(plt.show())
 
-    def chartBar(self,data):
+    def chartBar(self, data):
         data['carrier'].value_counts().plot(kind='bar')
         print(plt.show())
         data['carrier_name'].value_counts().plot(kind='bar')
@@ -40,7 +41,8 @@ class DataProcessor:
         print(plt.show())
         data['airport_name'].value_counts().plot(kind='bar')
         print(plt.show())
-    def plotHeatmap(self,data):
+
+    def plotHeatmap(self, data):
         data_encoded = pd.get_dummies(data, columns=['carrier'])
         data_types = data.dtypes
 
