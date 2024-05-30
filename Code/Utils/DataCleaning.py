@@ -15,30 +15,58 @@ class DataCleaning:
 
     pd.set_option('display.max_columns', None)
 
-    df = pd.read_csv(r'C:\Users\kiran\OneDrive\Desktop\Files\Programing\Ml_Project_Venkat\Flight_Delay_Predection\Data\Airline_Delay_Cause.csv')
+    df = pd.read_excel(r'C:\Users\kiran\Downloads\cleaned_data.xlsx')    
     print(df.shape)
-    # print(df.info(verbose=True))
-    # print(df.describe(include='all'))
-    df_one_hot = pd.get_dummies(df, prefix=df.select_dtypes(include=['object']).columns, dtype=float)
-    print(df_one_hot.shape)
-    # print(df_one_hot.info(verbose=True))
-    # print(df_one_hot.describe(include='all'))
-    # plt.figure("Correalation HeatMap")
-    # corr = df.corr(numeric_only=True, method="spearman").round(2)
-    # sb.heatmap(corr, annot=True)
+    ls = []
+    for i in df.columns.values:
+        if(str(i).endswith('.1')):
+            ls.append(i)
+
+    print(ls)
+    df.drop(labels=ls, axis=1, inplace=True)
+
+    print(df.head(4))
+    print(df.columns)
+    print(df.isnull().sum())
+    print(df.info())
+
+    df.sort_values(by=['year', 'month'], ascending=True, inplace=True)
+
+    # df1 = df.groupby(by=['year']).agg({'arr_delay' : 'sum'})
+    # df2 = df.groupby(by=['year']).agg({'carrier_delay' : 'sum'})
+    # df3 = df.groupby(by=['year']).agg({'weather_delay' : 'sum'})
+    # x_arr = np.arange(len(df1.index.values))
+    # w = 0.2
+    # print(df1)
+    # print(df2)
+    # print(df3)
+    # plt.bar(x = x_arr, height=[j for i in df1.values for j in i], label='arr_delay', width= w)
+    # plt.bar(x = [i + w for i in x_arr], height=[j for i in df2.values for j in i], label = 'carrier_delay', width= w)
+    # plt.bar(x = [i + 2*w for i in x_arr], height=[j for i in df3.values for j in i], label = 'weather_delay', width= w)
+    # plt.legend()
+    # plt.xticks([i + (w) for i in x_arr], df1.index.values)
     # plt.show()
-    print(df_one_hot.isnull().sum())
-    print(df_one_hot.columns[df_one_hot.isnull().sum() > 1])
-    print(df_one_hot.fillna(0, inplace=True))
-    x_train, x_test, y_train, y_test = train_test_split(df_one_hot.drop(columns=['arr_delay']), df_one_hot['arr_delay'], test_size=0.2
-                                                        # , random_state=42
-                                                        )
+
+
+    # df.dropna(inplace=True)
+    # print(df.isnull().sum())
+
+    # df_one_hot = pd.get_dummies(df, prefix=df.select_dtypes(include=['object']).columns, dtype=float)
+    # print(df_one_hot.shape)
+
+    # print(df_one_hot.isnull().sum())
+    # print(df_one_hot.columns[df_one_hot.isnull().sum() > 1])
+    # print(df_one_hot.fillna(0, inplace=True))
+
+
+    x_train, x_test, y_train, y_test = train_test_split(df.drop(columns=['arr_del15', 'carrier', 'carrier_name', 'airport', 'airport_name']), df['arr_del15'], test_size=0.3
+                                                            # , random_state=42
+                                                            )
 
     print(x_train.shape)
     print(x_test.shape)
     print(y_train.shape)
     print(y_test.shape)
-
 
     #Linear Regression
     model = LinearRegression()
