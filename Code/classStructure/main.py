@@ -3,6 +3,7 @@ from data_processor import DataProcessor
 from data_splitter import DataSplitter
 from missingvalueHandler import MissingValueHandler
 from outlierhandler import OutlierHandler
+from dataSaver import DataSaver
 from sklearn.model_selection import train_test_split
 
 from ml_model import MLModel
@@ -88,6 +89,12 @@ def main():
     # data_processor.chartBar(data)
     # data_processor.plotHeatmap(data)
 
+    print("\n\n\n\n\nDOWNLOADING THE CLEANED DATA:\n\n")
+    print("________________________________________________________\n\n")
+    data_saver = DataSaver(X_train_cleaned, y_train_cleaned)
+
+    # Call the save_combined_data_as_excel method to save the combined data as an Excel file
+    data_saver.save_combined_data_as_excel()
     ''' processor = DataProcessor()
     X, y = processor.preprocess(data)
 
