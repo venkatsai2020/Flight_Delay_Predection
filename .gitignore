@@ -1,7 +1,7 @@
 #ignore vertual enviroment
 Code/.venv
-Code\EDA\flightDelay_EDA
+Code/EDA/flightDelay_EDA
 # Default ignored files
-Code\EDA\flightDelay_EDA\.idea/shelf/
-Code\EDA\flightDelay_EDA\.idea/workspace.xml
+Code/EDA/flightDelay_EDA/.idea/shelf/
+Code/EDA/flightDelay_EDA/.idea/workspace.xml
 
