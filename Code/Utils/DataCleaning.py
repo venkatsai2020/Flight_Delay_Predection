@@ -7,12 +7,24 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import mean_squared_error, r2_score, accuracy_score, recall_score, precision_score
 import numpy as np
+import pickle as pkl
+import datetime as dt
 
 class DataCleaning:
     
     def __init__(self) -> None:
         pass
 
+    def pickleModel(model : any, project_name : str, model_name : str):
+        # store data in a pkl file
+        pkl.dump(model , open('PickledModels\\' + project_name + '_' + model_name + str(dt.datetime.now().strftime("%d%m%Y%H%M%S")) +'.pk1' , 'wb'))
+        print('Model Saved Successfully in PickledModels Folder')
+
+    def getPickledModle(file_name : str):
+        model = pkl.load(open(r'PickledModels/'+file_name+'.pk1' , 'rb'))
+        return model
+
+    project_name = 'FlightDelayPredecation'
     pd.set_option('display.max_columns', None)
 
     df = pd.read_excel(r'C:\Users\kiran\Downloads\cleaned_data.xlsx')    
@@ -69,6 +81,7 @@ class DataCleaning:
     print(y_test.shape)
 
     #Linear Regression
+    model_name = 'LinearRegression'
     model = LinearRegression()
     model.fit(x_train, y_train)
     y_train_pred = model.predict(x_train)
@@ -88,7 +101,10 @@ class DataCleaning:
     print("Test RMSE:", test_rmse)
     print("Test R2:", test_r2)
 
-    #Lasso regression (L1)
+    pickleModel(model, project_name, model_name)
+
+    # Lasso regression (L1)
+    model_name = 'LassoRegression'
     lasso = Lasso(alpha=0.1)
     lasso.fit(x_train, y_train)
     y_train_pred_lasso = lasso.predict(x_train)
@@ -107,7 +123,10 @@ class DataCleaning:
     print(f"Train RMSE: {rmse_train_lasso}")
     print(f"Test RMSE: {rmse_test_lasso}")
 
+    pickleModel(lasso, project_name, model_name)
+
     #Ridge regression (L2)
+    model_name = 'RidgeRegression'
     ridge = Ridge(alpha=1.0)
     ridge.fit(x_train, y_train)
     y_train_pred_ridge = ridge.predict(x_train)
@@ -125,7 +144,24 @@ class DataCleaning:
     print(f"Train RMSE: {rmse_train_ridge}")
     print(f"Test RMSE: {rmse_test_ridge}")
 
+    pickleModel(ridge, project_name, model_name)
+
+    #Decision Tree
+    model_name = 'DecisionTree'
+    # Step 5: Building the Decision Tree Model
+    dt_model = DecisionTreeClassifier()
+    # Step 6: Training the Model
+    dt_model.fit(x_train, y_train)
+    # Step 7: Evaluating the Model
+    y_pred = dt_model.predict(x_test)
+    print()
+    print("Decision Tree:")
+    print("Accuracy:", accuracy_score(y_test, y_pred))
+
+    pickleModel(dt_model, project_name, model_name)
+
     #Random Forest
+    model_name = 'RandomForest'
     rf = RandomForestClassifier(
             n_estimators=100,    # More trees (can be tuned using cross-validation)
             max_depth=6,        # Shallower trees
@@ -145,3 +181,5 @@ class DataCleaning:
     print("Random Forest:")
     print("Train Accuracy: ", train_acc)
     print("Test Accuracy: ", test_acc)
+
+    pickleModel(rf, project_name, model_name)
