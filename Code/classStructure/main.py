@@ -3,6 +3,12 @@ from data_processor import DataProcessor
 from data_splitter import DataSplitter
 from missingvalueHandler import MissingValueHandler
 from outlierhandler import OutlierHandler
+from dataSaver import DataSaver
+from correlation_plotter import CorrelationMatrixPlotter
+import pandas as pd
+from correlation_analyzer import CorrelationAnalyzer
+from feature_remover import FeatureRemover
+
 from sklearn.model_selection import train_test_split
 
 from ml_model import MLModel
@@ -87,6 +93,47 @@ def main():
     # data_processor.plotBox(data)
     # data_processor.chartBar(data)
     # data_processor.plotHeatmap(data)
+
+    print("\n\n\n\n\nDOWNLOADING THE CLEANED DATA:\n\n")
+    print("________________________________________________________\n\n")
+    data_saver = DataSaver(X_train_cleaned, y_train_cleaned)
+
+    # Call the save_combined_data_as_excel method to save the combined data as an Excel file
+    data_saver.save_combined_data_as_excel()
+    print("\n\n\n\n\nCORRELATION HEATMAP:\n\n")
+    print("________________________________________________________\n\n")
+    df = pd.DataFrame(data)
+
+    # Create an instance of the CorrelationMatrixPlotter
+    plotter = CorrelationMatrixPlotter(df)
+
+    # Plot the heatmap
+    plotter.plot_heatmap()
+    print("\n\n\n\n\nCORRELATION ANALYZER:\n\n")
+    print("________________________________________________________\n\n")
+    # Define target feature and threshold
+    target_feature = 'arr_delay'
+    threshold = 0.89
+
+    # Create an instance of the CorrelationAnalyzer
+    analyzer = CorrelationAnalyzer(df, target_feature, threshold)
+
+    # Print features with high correlation
+    analyzer.print_high_correlation_features()
+    print("\n\n\n\n\nFEATURE REMOVER:\n\n")
+    print("________________________________________________________\n\n")
+    features_to_remove_high = ['arr_del15', 'carrier_ct', 'late_aircraft_delay']
+    features_to_remove_low = ['weather_delay', 'nas_delay']
+
+    # Create an instance of the FeatureRemover
+    remover = FeatureRemover(X_train)
+
+    # Remove high and low correlation features
+    X_train_modified = remover.remove_high_and_low_correlation_features(features_to_remove_high, features_to_remove_low)
+
+    # Print the modified DataFrame
+    print("Modified DataFrame:")
+    print(X_train_modified)
 
     ''' processor = DataProcessor()
     X, y = processor.preprocess(data)
