@@ -3,13 +3,18 @@ import numpy as np
 
 
 class MissingValueHandler:
-    def __init__(self, df, features_with_null):
-        self.df = df
+    def __init__(self, x,y, features_with_null):
+        self.x = x
+        self.y=y
         self.features_with_null = features_with_null
 
     def print_missing_values(self):
-        print("\nMissing values:")
-        print(self.df.isnull().sum())
+        print("\nMissing values in X_TRAIN:")
+        print(self.x.isnull().sum())
+        print("\nMissing values in Y_TRAIN:")
+
+        print(self.y.isnull().sum())
+
 
     def check_null_values(self, X, y):
         null_sum_X = np.sum(X.isnull().values)
