@@ -43,11 +43,11 @@ def main():
         'carrier_delay', 'weather_delay', 'nas_delay', 'security_delay',
         'late_aircraft_delay'
     ]
-    handler = MissingValueHandler(data, features_with_null)
+    handler = MissingValueHandler(X_train, y_train, features_with_null)
     handler.print_missing_values()
-    X = data.drop(columns='arr_delay')
-    y = data['arr_delay']
-    #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # X = data.drop(columns='arr_delay')
+    # y = data['arr_delay']
+    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     # Check null values in training data
     handler.check_null_values(X_train, y_train)
@@ -71,29 +71,26 @@ def main():
     # Display outliers in X_train
     print("Outliers in X_train:")
     outlier_handler.display_outliers(X_train_cleaned)
-    outlier_handler.count_outliers(X_train_cleaned)
+    #outlier_handler.count_outliers(X_train_cleaned)
 
     # Display outliers in y_train
     print("\nOutliers in y_train:")
-    outlier_handler.display_outliers(X_train_cleaned)
+    outlier_handler.display_outliers(y_train_cleaned)
 
-    # Remove outliers from X_train
-    X_train_cleaned = outlier_handler.remove_outliers(X_train_cleaned)
+    # Remove outliers from X_train and y_train
+    X_train_cleaned = outlier_handler.remove_outliers(X_train)
+    y_train_cleaned = outlier_handler.remove_outliers(y_train)
 
-    # Get the index of cleaned rows
-    cleaned_indices = X_train_cleaned.index
+    # Print the shapes of cleaned data
+    print("\nX_train_cleaned shape:", X_train_cleaned.shape)
+    print("y_train_cleaned shape:", y_train_cleaned.shape)
 
-    # Remove corresponding rows from y_train
-    y_train_cleaned = X_train_cleaned.loc[cleaned_indices]
 
-    # Check the shape of cleaned datasets
-    print("\nShape of X_train after removing outliers:", X_train_cleaned.shape)
-    print("Shape of y_train after removing outliers:", y_train_cleaned.shape)
     # data_processor.plotHist(data)
     # data_processor.plotBox(data)
     # data_processor.chartBar(data)
     # data_processor.plotHeatmap(data)
-
+'''
     print("\n\n\n\n\nDOWNLOADING THE CLEANED DATA:\n\n")
     print("________________________________________________________\n\n")
     data_saver = DataSaver(X_train_cleaned, y_train_cleaned)
@@ -133,28 +130,8 @@ def main():
 
     # Print the modified DataFrame
     print("Modified DataFrame:")
-    print(X_train_modified)
-
-    ''' processor = DataProcessor()
-    X, y = processor.preprocess(data)
-
-    # Split data into train and test sets
-    X_train, X_test, y_train, y_test = processor.split_data(X, y)
-
-    # Initialize model
-    model = LinearRegression()  # Example model, replace with your choice
-
-    # Initialize ML model wrapper
-    ml_model = MLModel(model)
-
-    # Train the model
-    ml_model.train(X_train, y_train)
-
-    # Evaluate the model
-    mse = ml_model.evaluate(X_test, y_test)
-    print("Mean Squared Error:", mse)'''
+    print(X_train_modified)'''
 
 
 if __name__ == "__main__":
     main()
-

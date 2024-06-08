@@ -31,3 +31,6 @@ class DataSplitter:
         print("X_test shape:", self.X_test.shape)
         print("y_train shape:", self.y_train.shape)
         print("y_test shape:", self.y_test.shape)
+        #print(self.y_train)
+
+
