@@ -24,6 +24,7 @@ def main():
     print("\n\n DATA SET:\n\n")
     print("________________________________________________________\n\n")
     print(data)
+    print(data.shape)
     data_processor = DataProcessor()
 
     # print(data_processor.printHead(data))
@@ -64,33 +65,32 @@ def main():
 
     print("\n\n\n\n\nHANDLING OUTLIERS:\n\n")
     print("________________________________________________________\n\n")
-    # detecting and removing outliers
-    # Instantiate the OutlierHandler
+    # Create an instance of the OutlierHandler class
+    outlier_handler = OutlierHandler()
+    # Initialize the OutlierHandler
     outlier_handler = OutlierHandler()
 
     # Display outliers in X_train
     print("Outliers in X_train:")
-    outlier_handler.display_outliers(X_train_cleaned)
-    #outlier_handler.count_outliers(X_train_cleaned)
+    outlier_handler.display_outliers(X_train)
+
+    # Remove outliers from X_train
+    X_train_cleaned = outlier_handler.remove_outliers(X_train)
+
+    # Get the index of cleaned rows
+    cleaned_indices = X_train_cleaned.index
+
+    # Remove corresponding rows from y_train
+    y_train_cleaned = y_train.loc[cleaned_indices]
 
     # Display outliers in y_train
-    print("\nOutliers in y_train:")
+    print("Outliers in y_train:")
     outlier_handler.display_outliers(y_train_cleaned)
 
-    # Remove outliers from X_train and y_train
-    X_train_cleaned = outlier_handler.remove_outliers(X_train)
-    y_train_cleaned = outlier_handler.remove_outliers(y_train)
+    # Check the shape of cleaned datasets
+    print("Shape of X_train after removing outliers:", X_train_cleaned.shape)
+    print("Shape of y_train after removing outliers:", y_train_cleaned.shape)
 
-    # Print the shapes of cleaned data
-    print("\nX_train_cleaned shape:", X_train_cleaned.shape)
-    print("y_train_cleaned shape:", y_train_cleaned.shape)
-
-
-    # data_processor.plotHist(data)
-    # data_processor.plotBox(data)
-    # data_processor.chartBar(data)
-    # data_processor.plotHeatmap(data)
-'''
     print("\n\n\n\n\nDOWNLOADING THE CLEANED DATA:\n\n")
     print("________________________________________________________\n\n")
     data_saver = DataSaver(X_train_cleaned, y_train_cleaned)
@@ -111,7 +111,6 @@ def main():
     # Define target feature and threshold
     target_feature = 'arr_delay'
     threshold = 0.89
-
     # Create an instance of the CorrelationAnalyzer
     analyzer = CorrelationAnalyzer(df, target_feature, threshold)
 
@@ -123,14 +122,15 @@ def main():
     features_to_remove_low = ['weather_delay', 'nas_delay']
 
     # Create an instance of the FeatureRemover
-    remover = FeatureRemover(X_train)
+    remover = FeatureRemover(X_train_cleaned)
 
     # Remove high and low correlation features
     X_train_modified = remover.remove_high_and_low_correlation_features(features_to_remove_high, features_to_remove_low)
 
     # Print the modified DataFrame
     print("Modified DataFrame:")
-    print(X_train_modified)'''
+    print(X_train_modified)
+    print(X_train_modified.shape)
 
 
 if __name__ == "__main__":
