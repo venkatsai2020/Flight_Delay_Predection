@@ -1,0 +1,653 @@
+TIME,FLIGHT,FROM,AIRLINE,AIRCRAFT,Unnamed: 5,STATUS,DATE,ARRIVAL_AIRPORT_CODE,ARRIVAL_AIRPORT_NAME,WEATHER_ARRIVAL,WIND_ARRIVAL,DIRECTION_ARRIVAL,WEATHER_DEPARTURE,WIND_DEPARTURE,DIRECTION_DEPARTURE,Scheduled_departures,Actual_departures,Scheduled_arrival,Actual_arrival
+12:25 PM,S5234,Ghaziabad (HDO),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",AIP,Adampur Airport,,,,,,,11:25 AM,12:20 PM,00:43,12:25 PM
+8:05 AM,6E7089,Kolkata (CCU),IndiGo,AT76 (VT-IYY),,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,29 °C,10 kts,170 °,6:55 AM,6:52 AM,00:57,8:05 AM
+8:55 AM,6E7418,Kolkata (CCU),IndiGo,AT76 (VT-IRN),,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,29 °C,10 kts,170 °,7:35 AM,7:39 AM,00:58,8:55 AM
+10:40 AM,6E6068,Kolkata (CCU),IndiGo,A20N (VT-ISZ),,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,29 °C,10 kts,170 °,9:50 AM,—,—,10:40 AM
+12:50 PM,6E524,Bengaluru (BLR),IndiGo,A21N (VT-ILM),,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,24 °C,10 kts,260 °,1:20 PM,2:10 PM,00:54,2:15 PM
+1:00 PM,AI743,Kolkata (CCU),Air India,A20N (VT-RTQ),,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,29 °C,10 kts,170 °,12:00 PM,1:02 PM,00:38,1:00 PM
+2:00 PM,6E6771,Guwahati (GAU),IndiGo,A20N (VT-IIA),,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,26 °C,2 kts,350 °,1:10 PM,1:19 PM,00:37,2:00 PM
+2:20 PM,QP1323,Guwahati (GAU),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,26 °C,2 kts,350 °,1:15 PM,1:31 PM,00:33,2:20 PM
+3:10 PM,6E2206,Delhi (DEL),IndiGo,A320 (ES-SAF),,Scheduled,"Wednesday, Jun 19",IXA,Agartala Airport,25 °C,6 kts,50 °,30 °C,10 kts,10 °,12:35 PM,12:49 PM,02:04,3:10 PM
+9:00 AM,IC5904,Goa (GOX),Fly91,AT7,,Scheduled,"Wednesday, Jun 19",AGX,Agatti Airport,32 °C,12 kts,260 °,,,,,,,
+10:30 AM,9I505,Cochin (COK),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",AGX,Agatti Airport,32 °C,12 kts,260 °,25 °C,Calm,,9:05 AM,9:33 AM,—,10:30 AM
+11:50 AM,6E7271,Bengaluru (BLR),IndiGo,AT76 (VT-IYQ),,Scheduled,"Wednesday, Jun 19",AGX,Agatti Airport,32 °C,12 kts,260 °,24 °C,10 kts,260 °,9:35 AM,9:48 AM,—,11:50 AM
+1:00 PM,6E7005,Cochin (COK),IndiGo,AT76 (VT-IYC),,Scheduled,"Wednesday, Jun 19",AGX,Agatti Airport,32 °C,12 kts,260 °,25 °C,Calm,,11:25 AM,11:40 AM,—,1:00 PM
+2:00 PM,9I508,Cochin (COK),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",AGX,Agatti Airport,32 °C,12 kts,260 °,25 °C,Calm,,12:35 PM,—,—,2:00 PM
+9:00 AM,IC5904,Goa (GOX),Fly91,AT7,,Scheduled,"Wednesday, Jun 19",AGX,Agatti Airport,32 °C,12 kts,260 °,,,,,,,
+12:50 PM,6E5316,Mumbai (BOM),IndiGo,A20N (VT-IVV),,Scheduled,"Wednesday, Jun 19",AGR,Agra Airport,27 °C,23 kts,10 °,29 °C,8 kts,210 °,10:40 AM,11:12 AM,01:54,1:00 PM
+1:40 PM,6E7928,Lucknow (LKO),IndiGo,AT76 (VT-IYZ),,Scheduled,"Wednesday, Jun 19",AGR,Agra Airport,27 °C,23 kts,10 °,35 °C,8 kts,250 °,,,,
+10:25 PM,6E2153,Delhi (DEL),IndiGo,A20N (VT-IXE),,Delayed 11:01 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,30 °C,10 kts,10 °,8:55 PM,9:50 PM,01:28,10:25 PM
+10:35 PM,6E7169,Nagpur (NAG),IndiGo,AT76 (VT-IXS),,Landed 10:10 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,28 °C,4 kts,200 °,8:30 PM,8:23 PM,01:47,10:35 PM
+10:40 PM,AK91,Kuala Lumpur (KUL),AirAsia,A20N (9M-AGO),,Landed 10:24 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,27 °C,Calm,,8:00 PM,8:03 PM,04:51,10:40 PM
+10:40 PM,6E5283,Mumbai (BOM),IndiGo,A320 (VT-IAS),,Delayed 11:01 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,29 °C,8 kts,210 °,9:25 PM,10:11 PM,01:01,10:40 PM
+10:45 PM,6E216,Hyderabad (HYD),IndiGo,A20N (VT-IJJ),,Estimated 10:45 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,27 °C,13 kts,260 °,9:00 PM,9:29 PM,01:20,10:45 PM
+10:50 PM,VJ1805,Ho Chi Minh City (SGN),VietJet Air,A21N (VN-A527),,Estimated 10:57 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,29 °C,8 kts,240 °,7:10 PM,7:46 PM,04:53,10:50 PM
+10:55 PM,UK929,Delhi (DEL),Vistara,A20N (VT-TNK),,Estimated 10:59 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,30 °C,10 kts,10 °,9:25 PM,9:49 PM,01:11,10:55 PM
+10:55 PM,6E7292,Bhopal (BHO),IndiGo,AT76 (VT-IRL),,Delayed 11:18 PM,"Wednesday, Jun 19",AMD,Ahmedabad International Airport,32 °C,10 kts,160 °,30 °C,8 kts,180 °,9:35 PM,10:07 PM,01:23,10:55 PM
+9:40 AM,9I783,Guwahati (GAU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,26 °C,2 kts,350 °,,,,
+9:50 AM,6E6941,Kolkata (CCU),IndiGo,A20N (VT-IJZ),,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,29 °C,10 kts,170 °,8:30 AM,9:14 AM,00:49,9:50 AM
+10:45 AM,9I755,Guwahati (GAU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,26 °C,2 kts,350 °,,,,
+11:05 AM,9I731,Imphal (IMF),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,24 °C,Calm,,5:34 AM,5:34 AM,00:45,11:49 AM
+12:30 PM,6E6955,Guwahati (GAU),IndiGo,A20N (VT-IJZ),,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,26 °C,2 kts,350 °,11:30 AM,12:15 PM,00:46,12:30 PM
+1:10 PM,6E282,Delhi (DEL),IndiGo,A320 (VT-IAR),,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,30 °C,10 kts,10 °,10:30 AM,10:35 AM,02:18,1:10 PM
+1:55 PM,6E457,Guwahati (GAU),IndiGo,A20N (VT-ITL),,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,26 °C,2 kts,350 °,12:55 PM,1:05 PM,00:39,1:55 PM
+2:20 PM,6E6616,Kolkata (CCU),IndiGo,A20N (VT-ISZ),,Scheduled,"Wednesday, Jun 19",AJL,Aizawl Lengpui Airport,24 °C,2 kts,280 °,29 °C,10 kts,170 °,1:05 PM,1:40 PM,00:56,2:20 PM
+9:30 AM,9I697,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,30 °C,10 kts,10 °,3:45 PM,4:40 PM,—,5:30 PM
+11:20 AM,6E7926,Bhopal (BHO),IndiGo,AT76 (VT-IXZ),,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,30 °C,8 kts,180 °,9:55 AM,9:53 AM,01:16,11:20 AM
+11:40 AM,6E7942,Bhubaneswar (BBI),IndiGo,AT76 (VT-IYI),,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,30 °C,10 kts,190 °,9:50 AM,9:32 AM,—,11:40 AM
+12:25 PM,6E5076,Delhi (DEL),IndiGo,A21N (VT-IUH),,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,30 °C,10 kts,10 °,11:10 AM,11:49 AM,—,12:25 PM
+1:00 PM,QP1546,Mumbai (BOM),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,29 °C,8 kts,210 °,10:35 AM,10:50 AM,—,1:00 PM
+1:45 PM,9I698,Bilaspur (PAB),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,,,,5:55 PM,6:49 PM,01:25,7:35 PM
+2:00 PM,6E6937,Mumbai (BOM),IndiGo,A20N (VT-IXA),,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,29 °C,8 kts,210 °,11:55 AM,12:08 PM,—,2:00 PM
+4:00 PM,6E7924,Dehradun (DED),IndiGo,AT76 (VT-IYI),,Scheduled,"Wednesday, Jun 19",IXD,Allahabad Airport,36 °C,4 kts,250 °,23 °C,8 kts,60 °,2:15 PM,2:18 PM,—,4:00 PM
+10:30 PM,AI479,Delhi (DEL),Air India,A321 (VT-PPL),,Estimated 10:42 PM,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,30 °C,10 kts,10 °,9:15 PM,9:55 PM,00:47,10:30 PM
+11:45 PM,NO324,Rome (FCO),Neos,B789 (EI-NEO),,Estimated 11:55 PM,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,29 °C,6 kts,130 °,1:15 PM,1:46 PM,06:56,11:45 PM
+1:15 AM,6E9156,Chandigarh (IXC),IndiGo,A20N (VT-IPL),,Scheduled,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,28 °C,19 kts,20 °,12:30 AM,12:34 AM,00:27,1:15 AM
+2:05 AM,QR548,Doha (DOH),Qatar Airways,A320 (A7-AHB),,Scheduled,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,37 °C,4 kts,220 °,7:55 PM,8:06 PM,—,2:05 AM
+3:40 AM,AI487,Delhi (DEL),Air India,A321 (VT-PPX),,Scheduled,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,30 °C,10 kts,10 °,2:20 AM,—,—,3:40 AM
+3:50 AM,IX138,Sharjah (SHJ),Air India Express (Spices-Fishing Livery),B738 (VT-GHK),,Scheduled,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,37 °C,4 kts,200 °,11:00 PM,—,—,3:50 AM
+4:35 AM,6E721,Pune (PNQ),IndiGo,A20N (VT-IPU),,Scheduled,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,26 °C,8 kts,250 °,2:15 AM,2:21 AM,01:59,4:35 AM
+6:10 AM,AI453,Delhi (DEL),Air India,A321 (VT-PPQ),,Scheduled,"Wednesday, Jun 19",ATQ,Amritsar International Airport,31 °C,10 kts,90 °,30 °C,10 kts,10 °,4:55 AM,5:32 AM,00:43,6:10 AM
+6:15 AM,6E6227,Mumbai (BOM),IndiGo,A20N (VT-IXA),,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,29 °C,8 kts,210 °,5:15 AM,5:22 AM,00:40,6:15 AM
+7:00 AM,AI443,Delhi (DEL),Air India,A320 (VT-EXD),,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,30 °C,10 kts,10 °,5:00 AM,5:13 AM,01:27,7:00 AM
+8:45 AM,6E7252,Hyderabad (HYD),IndiGo,AT76 (VT-IYJ),,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,27 °C,13 kts,260 °,7:20 AM,7:18 AM,01:10,8:45 AM
+6:30 PM,6E5603,Delhi (DEL),IndiGo,A20N (VT-ISJ),,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,30 °C,10 kts,10 °,4:45 PM,5:18 PM,01:22,6:30 PM
+6:50 PM,6E7456,Ahmedabad (AMD),IndiGo,AT76 (VT-IRK),,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,31 °C,8 kts,180 °,5:05 PM,5:17 PM,01:15,6:50 PM
+8:45 PM,6E7159,Hyderabad (HYD),IndiGo,AT76 (VT-IXW),,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,27 °C,13 kts,260 °,7:20 PM,7:26 PM,01:12,8:45 PM
+8:55 PM,6E5027,Mumbai (BOM),IndiGo,A21N (VT-IUK),,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,29 °C,8 kts,210 °,7:55 PM,8:26 PM,00:41,8:55 PM
+6:15 AM,6E6227,Mumbai (BOM),IndiGo,32N,,Scheduled,"Wednesday, Jun 19",IXU,Aurangabad Airport,28 °C,4 kts,270 °,,,,5:15 AM,5:22 AM,00:40,6:15 AM
+9:10 AM,QP1821,Bengaluru (BLR),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,24 °C,10 kts,260 °,6:55 AM,7:05 AM,02:16,9:10 AM
+10:05 AM,6E6687,Ahmedabad (AMD),IndiGo,A20N (VT-IIY),,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,31 °C,8 kts,180 °,,,,
+11:15 AM,SG322,Chennai (MAA),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,27 °C,13 kts,240 °,9:10 AM,—,—,11:15 AM
+11:25 AM,IX1595,Delhi (DEL),Air India Express,7M8,,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,30 °C,10 kts,10 °,10:15 AM,11:35 AM,00:58,11:25 AM
+12:15 PM,QP1607,Delhi (DEL),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,30 °C,10 kts,10 °,10:50 AM,10:58 AM,00:56,12:15 PM
+1:05 PM,SG511,Ahmedabad (AMD),SpiceJet,320,,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,31 °C,8 kts,180 °,,,,
+1:30 PM,SG8461,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,30 °C,10 kts,10 °,12:10 PM,2:29 PM,00:52,1:25 PM
+2:55 PM,6E2701,Delhi (DEL),IndiGo,A20N (VT-IQT),,Scheduled,"Wednesday, Jun 19",AYJ,Ayodhya Airport,,,,30 °C,10 kts,10 °,1:35 PM,2:18 PM,00:54,2:55 PM
+1:30 PM,6E6533,Bengaluru (BLR),IndiGo,A20N (VT-IPK),,Scheduled,"Wednesday, Jun 19",BEK,Bareilly Airport,37 °C,2 kts,Variable,24 °C,10 kts,260 °,,,,
+3:05 PM,9I637,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",BUP,Bathinda Airport,,,,30 °C,10 kts,10 °,1:35 PM,4:57 PM,00:49,3:05 PM
+4:30 PM,S99308,Ghaziabad (HDO),FlyBig,DHT,,Scheduled,"Wednesday, Jun 19",BUP,Bathinda Airport,,,,,,,,,,
+7:50 AM,6E7285,Bengaluru (BLR),IndiGo,AT76 (VT-IRM),,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,24 °C,10 kts,260 °,6:30 AM,6:39 AM,01:14,7:50 AM
+8:35 AM,6E2511,Delhi (DEL),IndiGo,A20N (VT-IZJ),,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,30 °C,10 kts,10 °,6:15 AM,6:28 AM,02:03,8:35 AM
+1:00 PM,S5138,Jodhpur (JDH),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,36 °C,8 kts,200 °,,,,
+1:10 PM,S5112,Mumbai (BOM),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,29 °C,8 kts,210 °,3:50 PM,3:58 PM,00:48,5:10 PM
+2:30 PM,S5142,Surat (STV),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,30 °C,10 kts,200 °,,,,
+4:10 PM,6E7512,Hyderabad (HYD),IndiGo,AT76 (VT-IXY),,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,27 °C,13 kts,260 °,2:50 PM,3:08 PM,01:06,4:10 PM
+7:25 PM,6E7226,Bengaluru (BLR),IndiGo,AT76 (VT-IRA),,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,24 °C,10 kts,260 °,5:55 PM,6:24 PM,01:11,7:25 PM
+8:45 PM,S5148,Nagpur (NAG),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",IXG,Belgaum Airport,24 °C,8 kts,260 °,28 °C,4 kts,200 °,,,,
+10:25 PM,QP1424,Varanasi (VNS),Akasa Air,B38M (VT-YAC),,Landed 10:09 PM,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,35 °C,6 kts,210 °,7:45 PM,8:09 PM,02:00,10:25 PM
+10:25 PM,QP1332,Ahmedabad (AMD),Akasa Air,B38M (VT-YAE),,Landed 10:01 PM,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,31 °C,8 kts,180 °,8:05 PM,8:10 PM,01:50,10:25 PM
+10:30 PM,SG8151,Delhi (DEL),SpiceJet,B738 (VT-SLF),,Scheduled,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,30 °C,10 kts,40 °,7:40 PM,12:04 AM,—,10:30 PM
+10:30 PM,6E107,Pune (PNQ),IndiGo,A20N (VT-ITT),,Landed 10:37 PM,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,26 °C,8 kts,250 °,8:55 PM,9:12 PM,01:26,10:30 PM
+10:35 PM,QP1397,Goa (GOX),Akasa Air,B38M (VT-YAP),,Scheduled,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,,,,9:15 PM,11:12 PM,01:01,10:35 PM
+10:35 PM,UK766,Kolkata (CCU),Vistara,A20N (VT-TNI),,Landed 10:17 PM,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,29 °C,10 kts,170 °,7:55 PM,8:15 PM,02:01,10:35 PM
+10:40 PM,9I548,Goa (GOI),Alliance Air,AT76 (VT-AIX),,Scheduled,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,26 °C,8 kts,140 °,9:05 PM,—,—,10:40 PM
+10:40 PM,FD137,Bangkok (DMK),AirAsia,A320 (HS-ABW),,Landed 10:34 PM,"Wednesday, Jun 19",BLR,Bengaluru Kempegowda International Airport,24 °C,10 kts,270 °,30 °C,8 kts,250 °,8:35 PM,8:44 PM,03:20,10:40 PM
+9:05 AM,SG1079,Pune (PNQ),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",BHU,Bhavnagar Airport,34 °C,16 kts,170 °,26 °C,8 kts,250 °,7:55 AM,7:54 AM,00:58,9:05 AM
+5:35 PM,SG1082,Mumbai (BOM),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",BHU,Bhavnagar Airport,34 °C,16 kts,170 °,29 °C,4 kts,200 °,4:35 PM,4:45 PM,00:45,5:35 PM
+9:05 AM,SG1079,Pune (PNQ),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",BHU,Bhavnagar Airport,34 °C,16 kts,170 °,26 °C,8 kts,250 °,7:55 AM,7:54 AM,00:58,9:05 AM
+7:00 AM,6E7582,Ahmedabad (AMD),IndiGo,AT76 (VT-IYF),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,31 °C,12 kts,160 °,5:30 AM,5:50 AM,01:20,7:00 AM
+7:15 AM,6E6112,Delhi (DEL),IndiGo,A20N (VT-IJM),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,30 °C,10 kts,40 °,5:55 AM,5:53 AM,00:59,7:15 AM
+7:20 AM,AI435,Delhi (DEL),Air India,A20N (VT-RTY),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,30 °C,10 kts,40 °,5:55 AM,6:11 AM,01:09,7:20 AM
+8:10 AM,6E368,Bengaluru (BLR),IndiGo,A21N (VT-IMS),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,23 °C,10 kts,250 °,6:10 AM,6:30 AM,01:34,8:10 AM
+9:15 AM,6E5172,Mumbai (BOM),IndiGo,A320 (VT-IFR),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,29 °C,4 kts,200 °,7:35 AM,7:56 AM,01:18,9:15 AM
+9:30 AM,6E7121,Hyderabad (HYD),IndiGo,AT76 (VT-IXZ),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,27 °C,13 kts,260 °,7:15 AM,7:20 AM,02:03,9:30 AM
+11:35 AM,6E7469,Jaipur (JAI),IndiGo,AT76 (VT-IRI),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,36 °C,12 kts,270 °,,,,
+12:00 PM,AI633,Mumbai (BOM),Air India,A20N (VT-RTO),,Scheduled,"Wednesday, Jun 19",BHO,Bhopal Raja Bhoj Airport,32 °C,6 kts,150 °,29 °C,4 kts,200 °,10:30 AM,10:43 AM,01:06,12:00 PM
+10:40 PM,IX1799,Delhi (DEL),Air India Express,7M8,,Canceled,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,30 °C,10 kts,40 °,8:20 PM,—,—,10:40 PM
+11:30 PM,6E411,Bengaluru (BLR),IndiGo,A320 (VT-IWW),,Delayed 11:48 PM,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,23 °C,10 kts,250 °,9:30 PM,10:04 PM,01:43,11:30 PM
+7:15 AM,6E2064,Delhi (DEL),IndiGo,A320 (9H-SLE),,Scheduled,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,30 °C,10 kts,40 °,5:10 AM,5:14 AM,01:47,7:15 AM
+7:25 AM,6E6242,Hyderabad (HYD),IndiGo,A20N (VT-ISZ),,Scheduled,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,27 °C,13 kts,260 °,5:40 AM,5:48 AM,01:19,7:25 AM
+7:40 AM,IX1711,Delhi (DEL),Air India Express,B38M (VT-BXD),,Scheduled,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,30 °C,10 kts,40 °,5:30 AM,5:43 AM,01:41,7:40 AM
+8:50 AM,I51567,Bengaluru (BLR),AIX Connect,A320 (VT-ATQ),,Scheduled,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,23 °C,10 kts,250 °,6:50 AM,7:03 AM,01:36,8:50 AM
+9:05 AM,UK785,Delhi (DEL),Vistara,320,,Scheduled,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,30 °C,10 kts,40 °,7:00 AM,7:13 AM,01:47,9:05 AM
+9:25 AM,6E7623,Kolkata (CCU),IndiGo,AT76 (VT-IYI),,Scheduled,"Wednesday, Jun 19",BBI,Bhubaneswar Biju Patnaik International Airport,30 °C,8 kts,190 °,29 °C,10 kts,170 °,7:55 AM,7:50 AM,01:05,9:25 AM
+8:05 AM,AI601,Mumbai (BOM),Air India,A20N (VT-RTX),,Scheduled,"Wednesday, Jun 19",BHJ,Bhuj Airport,32 °C,10 kts,200 °,29 °C,4 kts,200 °,6:50 AM,7:14 AM,01:02,8:05 AM
+8:20 AM,9I625,Mumbai (BOM),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",BHJ,Bhuj Airport,32 °C,10 kts,200 °,29 °C,4 kts,200 °,6:10 AM,6:20 AM,01:26,8:20 AM
+12:10 PM,S5157,Ahmedabad (AMD),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",BHJ,Bhuj Airport,32 °C,10 kts,200 °,31 °C,12 kts,160 °,3:45 PM,3:59 PM,00:36,4:55 PM
+8:05 AM,AI601,Mumbai (BOM),Air India,A20N (VT-RTX),,Scheduled,"Wednesday, Jun 19",BHJ,Bhuj Airport,32 °C,10 kts,200 °,29 °C,4 kts,200 °,6:50 AM,7:14 AM,01:02,8:05 AM
+8:20 AM,9I625,Mumbai (BOM),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",BHJ,Bhuj Airport,32 °C,10 kts,200 °,29 °C,4 kts,200 °,6:10 AM,6:20 AM,01:26,8:20 AM
+8:50 AM,9I763,Kolkata (CCU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",PAB,Bilaspur Airport,,,,29 °C,10 kts,170 °,,,,
+11:25 AM,9I697,Allahabad (IXD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",PAB,Bilaspur Airport,,,,36 °C,4 kts,250 °,3:45 PM,4:40 PM,—,5:30 PM
+10:35 PM,6E6252,Hyderabad (HYD),IndiGo,A20N (VT-IQG),,Landed 10:31 PM,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,27 °C,13 kts,260 °,8:10 PM,8:27 PM,02:04,10:35 PM
+11:15 PM,6E6385,Bengaluru (BLR),IndiGo,A20N (VT-IPL),,Estimated 11:10 PM,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,23 °C,10 kts,250 °,8:30 PM,8:38 PM,02:28,11:15 PM
+11:35 PM,6E6506,Ahmedabad (AMD),IndiGo,A21N (VT-IMH),,Estimated 11:31 PM,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,31 °C,12 kts,160 °,9:50 PM,10:11 PM,01:20,11:35 PM
+3:30 AM,6E1417,Abu Dhabi (AUH),IndiGo,A20N (VT-IQM),,Scheduled,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,35 °C,2 kts,Variable,10:15 PM,10:41 PM,—,3:30 AM
+5:00 AM,6E9157,Amritsar (ATQ),IndiGo,A20N (VT-IPL),,Scheduled,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,30 °C,19 kts,340 °,4:15 AM,3:44 AM,00:31,5:00 AM
+6:35 AM,6E242,Pune (PNQ),IndiGo,A20N (VT-IIM),,Scheduled,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,26 °C,8 kts,250 °,4:20 AM,4:13 AM,01:50,6:35 AM
+7:00 AM,AI437,Delhi (DEL),Air India,A321 (VT-PPV),,Scheduled,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,30 °C,10 kts,40 °,5:50 AM,6:01 AM,00:31,7:00 AM
+7:30 AM,6E7742,Jaipur (JAI),IndiGo,AT76 (VT-IRI),,Scheduled,"Wednesday, Jun 19",IXC,Chandigarh Airport,28 °C,19 kts,20 °,36 °C,12 kts,270 °,6:05 AM,6:06 AM,01:17,7:30 AM
+10:40 PM,CX17,Hong Kong (HKG),Cathay Pacific Cargo,B744 (B-LID),,Estimated 10:51 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,30 °C,10 kts,200 °,8:05 PM,8:56 PM,04:28,10:40 PM
+10:40 PM,UK835,Delhi (DEL),Vistara,A20N (VT-TNU),,Landed 10:26 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,30 °C,10 kts,40 °,7:55 PM,8:01 PM,02:25,10:40 PM
+10:50 PM,MH180,Kuala Lumpur (KUL),Malaysia Airlines,B738 (9M-MXG),,Estimated 10:49 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,27 °C,2 kts,Variable,9:30 PM,10:05 PM,03:15,10:50 PM
+10:55 PM,FD153,Bangkok (DMK),AirAsia,A320 (HS-ABM),,Delayed 11:17 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,30 °C,8 kts,250 °,9:10 PM,9:32 PM,03:13,10:55 PM
+10:55 PM,6E5291,Mumbai (BOM),IndiGo,A21N (VT-ILQ),,Delayed 11:55 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,29 °C,4 kts,200 °,9:00 PM,10:18 PM,01:54,10:55 PM
+11:05 PM,AK13,Kuala Lumpur (KUL),AirAsia,A20N (9M-AGH),,Estimated 10:53 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,27 °C,2 kts,Variable,9:50 PM,10:09 PM,03:19,11:05 PM
+11:05 PM,6E7212,Mangalore (IXE),IndiGo,AT76 (VT-IRH),,Estimated 10:59 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,24 °C,4 kts,40 °,9:30 PM,9:35 PM,01:32,11:05 PM
+11:10 PM,6E348,Ahmedabad (AMD),IndiGo,A20N (VT-ITN),,Estimated 10:57 PM,"Wednesday, Jun 19",MAA,Chennai International Airport,28 °C,10 kts,220 °,31 °C,12 kts,160 °,8:50 PM,8:55 PM,02:07,11:10 PM
+10:40 PM,6E885,Goa (GOI),IndiGo,A20N (VT-IIQ),,Delayed 11:31 PM,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,26 °C,8 kts,140 °,9:15 PM,10:26 PM,01:09,10:40 PM
+10:50 PM,VJ1811,Ho Chi Minh City (SGN),VietJet Air,A321 (VN-A635),,Estimated 10:55 PM,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,29 °C,8 kts,230 °,7:20 PM,7:59 PM,04:27,10:50 PM
+10:50 PM,IX434,Dubai (DXB),Air India Express,A20N (VT-ATJ),,Scheduled,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,35 °C,6 kts,190 °,5:00 PM,—,—,10:50 PM
+11:10 PM,MH108,Kuala Lumpur (KUL),Malaysia Airlines,B738 (9M-MXD),,Estimated 11:16 PM,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,27 °C,2 kts,Variable,10:00 PM,10:15 PM,03:31,11:10 PM
+11:15 PM,AK39,Kuala Lumpur (KUL),AirAsia,A320 (9M-AJG),,Delayed 11:31 PM,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,27 °C,2 kts,Variable,9:45 PM,10:27 PM,03:35,11:15 PM
+11:20 PM,6E2391,Delhi (DEL),IndiGo,A20N (VT-IIL),,Estimated 11:10 PM,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,30 °C,10 kts,40 °,8:15 PM,8:30 PM,02:41,11:20 PM
+11:40 PM,OD231,Kuala Lumpur (KUL),Batik Air,B738 (9M-LNV),,Estimated 11:17 PM,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,27 °C,2 kts,Variable,10:05 PM,10:11 PM,03:27,11:40 PM
+11:55 PM,AK37,Kuala Lumpur (KUL),AirAsia,A320 (9M-AJH),,Delayed 12:14 AM,"Wednesday, Jun 19",COK,Cochin International Airport,26 °C,Calm,,27 °C,2 kts,Variable,10:25 PM,11:09 PM,03:29,11:55 PM
+3:35 AM,G9410,Sharjah (SHJ),Air Arabia,320,,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,36 °C,4 kts,150 °,10:10 PM,10:31 PM,—,3:35 AM
+5:55 AM,6E6472,Pune (PNQ),IndiGo,A20N (VT-IIA),,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,26 °C,8 kts,250 °,4:00 AM,3:55 AM,01:21,5:55 AM
+7:00 AM,6E857,Bengaluru (BLR),IndiGo,A21N (VT-IMZ),,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,23 °C,10 kts,250 °,6:10 AM,6:12 AM,00:31,7:00 AM
+8:15 AM,6E2393,Delhi (DEL),IndiGo,A320 (ES-SAY),,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,30 °C,10 kts,40 °,5:20 AM,5:35 AM,02:29,8:15 AM
+8:25 AM,AI609,Mumbai (BOM),Air India,A20N (VT-RTU),,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,29 °C,4 kts,200 °,6:30 AM,7:08 AM,01:32,8:25 AM
+9:00 AM,6E752,Hyderabad (HYD),IndiGo,A21N (VT-IME),,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,27 °C,13 kts,260 °,7:40 AM,7:58 AM,01:00,9:00 AM
+9:00 AM,6E782,Chennai (MAA),IndiGo,A20N (VT-IPE),,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,27 °C,13 kts,250 °,7:55 AM,8:07 AM,00:43,9:00 AM
+9:25 AM,6E5108,Mumbai (BOM),IndiGo,A21N (VT-IBM),,Scheduled,"Wednesday, Jun 19",CJB,Coimbatore International Airport,26 °C,12 kts,220 °,29 °C,4 kts,200 °,7:35 AM,7:52 AM,01:30,9:25 AM
+12:05 PM,I7107,Kolkata (CCU),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",COH,Cooch Behar Airport,25 °C,4 kts,90 °,29 °C,10 kts,170 °,10:15 AM,10:46 AM,01:30,12:05 PM
+10:05 AM,SG115,Mumbai (BOM),SpiceJet,7M8,,Scheduled,"Wednesday, Jun 19",DBR,Darbhanga Airport,,,,29 °C,10 kts,220 °,7:45 AM,1:04 PM,02:07,10:05 AM
+12:15 PM,6E7234,Kolkata (CCU),IndiGo,AT76 (VT-IRN),,Scheduled,"Wednesday, Jun 19",DBR,Darbhanga Airport,,,,29 °C,10 kts,160 °,10:45 AM,11:22 AM,01:17,12:15 PM
+12:45 PM,SG476,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",DBR,Darbhanga Airport,,,,30 °C,10 kts,40 °,11:00 AM,11:24 AM,01:25,12:45 PM
+2:25 PM,6E537,Hyderabad (HYD),IndiGo,A20N (VT-IIF),,Scheduled,"Wednesday, Jun 19",DBR,Darbhanga Airport,,,,27 °C,12 kts,260 °,12:20 PM,12:36 PM,01:45,2:25 PM
+3:15 PM,SG495,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",DBR,Darbhanga Airport,,,,30 °C,10 kts,40 °,1:15 PM,1:26 PM,01:17,3:15 PM
+10:05 AM,SG115,Mumbai (BOM),SpiceJet,7M8,,Scheduled,"Wednesday, Jun 19",DBR,Darbhanga Airport,,,,29 °C,10 kts,220 °,7:45 AM,1:04 PM,02:07,10:05 AM
+8:00 AM,6E568,Ahmedabad (AMD),IndiGo,A20N (VT-IPR),,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,31 °C,12 kts,160 °,7:20 AM,7:23 AM,01:31,9:10 AM
+9:35 AM,9I801,Kullu (KUU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,30 °C,Calm,,,,,
+9:40 AM,6E2018,Delhi (DEL),IndiGo,A20N (VT-IPI),,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,30 °C,10 kts,40 °,8:55 AM,9:26 AM,00:35,9:40 AM
+10:35 AM,6E7274,Jaipur (JAI),IndiGo,AT76 (VT-IXV),,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,35 °C,12 kts,270 °,9:05 AM,8:51 AM,01:17,10:35 AM
+11:05 AM,6E5239,Mumbai (BOM),IndiGo,A20N (VT-IQD),,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,29 °C,10 kts,220 °,8:55 AM,8:55 AM,01:59,11:05 AM
+11:25 AM,6E422,Hyderabad (HYD),IndiGo,A20N (VT-IID),,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,27 °C,12 kts,260 °,9:10 AM,9:27 AM,—,11:25 AM
+12:05 PM,9I649,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,30 °C,10 kts,40 °,,,,
+1:50 PM,6E7927,Allahabad (IXD),IndiGo,AT76 (VT-IYI),,Scheduled,"Wednesday, Jun 19",DED,Dehradun Jolly Grant Airport,23 °C,8 kts,60 °,36 °C,4 kts,250 °,12:00 PM,11:58 AM,01:44,1:50 PM
+10:35 PM,6E5024,Ranchi (IXR),IndiGo,A20N (VT-IQP),,Landed 10:37 PM,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,23 °C,8 kts,210 °,8:40 PM,8:58 PM,01:39,10:35 PM
+10:35 PM,AF226,Paris (CDG),EuroAtlantic Airways,B772 (CS-TSX),,Delayed 10:53 PM,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,19 °C,6 kts,50 °,10:25 AM,11:19 AM,08:19,10:35 PM
+10:35 PM,AI770,Kolkata (CCU),Air India,A321 (VT-PPW),,Landed 10:26 PM,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,29 °C,10 kts,160 °,8:00 PM,8:32 PM,01:54,10:35 PM
+10:35 PM,AI820,Vadodara (BDQ),Air India,A321 (VT-PPX),,Delayed 11:16 PM,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,31 °C,12 kts,190 °,8:50 PM,9:54 PM,—,10:35 PM
+10:35 PM,I59607,Pune (PNQ),AIX Connect,A320 (VT-IXR),,Landed 9:54 PM,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,26 °C,8 kts,250 °,8:20 PM,8:06 PM,01:48,10:35 PM
+10:40 PM,SG8172,Goa (GOX),Corendon Airlines,B38M (TC-MKC),,Scheduled,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,,,,8:00 PM,—,—,10:40 PM
+10:40 PM,UK708,Kolkata (CCU),Vistara,A20N (VT-TNF),,Estimated 10:52 PM,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,29 °C,10 kts,160 °,8:25 PM,8:44 PM,—,10:40 PM
+10:45 PM,UK870,Hyderabad (HYD),Vistara,A20N (VT-TQR),,Estimated 10:58 PM,"Wednesday, Jun 19",DEL,Delhi Indira Gandhi International Airport,39 °C,6 kts,250 °,27 °C,12 kts,260 °,8:35 PM,8:59 PM,02:22,10:45 PM
+10:55 AM,6E7939,Kolkata (CCU),IndiGo,AT76 (VT-IYT),,Scheduled,"Wednesday, Jun 19",DGH,Deoghar Airport,37 °C,6 kts,300 °,29 °C,10 kts,160 °,10:00 AM,10:10 AM,00:47,10:55 AM
+12:25 PM,6E6435,Bengaluru (BLR),IndiGo,A20N (VT-IPP),,Scheduled,"Wednesday, Jun 19",DGH,Deoghar Airport,37 °C,6 kts,300 °,23 °C,10 kts,250 °,,,,
+1:15 PM,6E2143,Delhi (DEL),IndiGo,A20N (VT-IPI),,Scheduled,"Wednesday, Jun 19",DGH,Deoghar Airport,37 °C,6 kts,300 °,30 °C,10 kts,40 °,11:30 AM,11:59 AM,01:29,1:15 PM
+1:35 PM,6E7964,Ranchi (IXR),IndiGo,AT76 (VT-IYT),,Scheduled,"Wednesday, Jun 19",DGH,Deoghar Airport,37 °C,6 kts,300 °,23 °C,8 kts,210 °,,,,
+7:30 AM,SG2950,Delhi (DEL),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,30 °C,10 kts,40 °,6:00 AM,6:12 AM,00:58,7:30 AM
+8:25 AM,6E7483,Delhi (DEL),IndiGo,AT76 (VT-IYG),,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,30 °C,10 kts,40 °,6:40 AM,6:34 AM,01:12,8:25 AM
+8:30 AM,9I711,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,30 °C,10 kts,40 °,8:10 AM,12:21 PM,01:39,10:00 AM
+9:15 AM,SG2937,Delhi (DEL),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,30 °C,10 kts,40 °,7:50 AM,8:20 AM,01:10,9:15 AM
+12:20 PM,9I812,Shimla (SLV),Alliance Air,ATR,,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,33 °C,6 kts,270 °,9:20 AM,—,—,10:15 AM
+12:55 PM,6E7485,Delhi (DEL),IndiGo,AT76 (VT-IYG),,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,30 °C,10 kts,40 °,,,,
+1:05 PM,SG2939,Delhi (DEL),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,30 °C,10 kts,40 °,11:40 AM,11:59 AM,01:06,1:05 PM
+7:30 AM,SG2950,Delhi (DEL),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",DHM,Dharamsala Gaggal Kangra Airport,40 °C,4 kts,200 °,,,,6:00 AM,6:12 AM,00:58,7:30 AM
+9:15 AM,6E2031,Delhi (DEL),IndiGo,A20N (VT-IPC),,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,30 °C,10 kts,40 °,6:30 AM,6:29 AM,02:25,9:15 AM
+10:00 AM,6E893,Kolkata (CCU),IndiGo,A20N (VT-IXD),,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,29 °C,10 kts,160 °,8:20 AM,8:16 AM,01:21,10:00 AM
+12:00 PM,UK725,Siliguri (IXB),Vistara,320,,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,24 °C,4 kts,50 °,10:35 AM,10:38 AM,01:03,12:00 PM
+1:10 PM,AI733,Imphal (IMF),Air India,A20N (VT-RTP),,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,24 °C,Calm,,12:15 PM,12:30 PM,00:40,1:10 PM
+1:25 PM,6E7955,Shillong (SHL),IndiGo,AT76 (VT-IYY),,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,23 °C,Calm,,,,,
+1:35 PM,UK741,Guwahati (GAU),Vistara,320,,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,28 °C,4 kts,320 °,12:15 PM,12:32 PM,00:41,1:35 PM
+1:40 PM,9I402,Itanagar (HGI),Alliance Air,D28,,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,,,,,,,
+1:55 PM,6E972,Guwahati (GAU),IndiGo,A20N (VT-IJJ),,Scheduled,"Wednesday, Jun 19",DIB,Dibrugarh Airport,26 °C,2 kts,Variable,28 °C,4 kts,320 °,1:00 PM,1:11 PM,00:41,1:55 PM
+10:55 AM,6E6339,Kolkata (CCU),IndiGo,A20N (VT-IZZ),,Scheduled,"Wednesday, Jun 19",DMU,Dimapur Airport,27 °C,4 kts,260 °,29 °C,10 kts,160 °,9:20 AM,9:28 AM,01:11,10:55 AM
+11:35 AM,9I741,Imphal (IMF),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DMU,Dimapur Airport,27 °C,4 kts,260 °,24 °C,Calm,,,,,
+12:20 PM,9I783,Shillong (SHL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DMU,Dimapur Airport,27 °C,4 kts,260 °,23 °C,Calm,,,,,
+1:15 PM,AI709,Guwahati (GAU),Air India,A20N (VT-RTF),,Scheduled,"Wednesday, Jun 19",DMU,Dimapur Airport,27 °C,4 kts,260 °,28 °C,4 kts,320 °,12:25 PM,1:38 PM,00:34,1:15 PM
+10:15 AM,9I749,Imphal (IMF),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DMU,Dimapur Airport,27 °C,4 kts,260 °,24 °C,Calm,,9:25 AM,—,—,10:15 AM
+1:10 PM,9I623,Mumbai (BOM),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DIU,Diu Airport,,,,29 °C,10 kts,220 °,3:20 PM,3:39 PM,00:44,4:25 PM
+1:30 PM,6E7966,Ahmedabad (AMD),IndiGo,AT76 (VT-IRL),,Scheduled,"Wednesday, Jun 19",DIU,Diu Airport,,,,31 °C,12 kts,160 °,9:40 AM,9:48 AM,00:49,11:00 AM
+3:30 PM,6E7968,Surat (STV),IndiGo,AT76 (VT-IYB),,Scheduled,"Wednesday, Jun 19",DIU,Diu Airport,,,,29 °C,10 kts,220 °,12:35 PM,12:35 PM,00:33,1:30 PM
+4:25 PM,9I623,Mumbai (BOM),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",DIU,Diu Airport,,,,29 °C,10 kts,220 °,3:20 PM,3:39 PM,00:44,4:25 PM
+8:25 AM,6E981,Chennai (MAA),IndiGo,A20N (VT-IQW),,Scheduled,"Wednesday, Jun 19",RDP,Durgapur Kazi Nazrul Islam Airport,33 °C,4 kts,140 °,27 °C,10 kts,260 °,,,,
+9:20 AM,6E603,Mumbai (BOM),IndiGo,A20N (VT-IQN),,Scheduled,"Wednesday, Jun 19",RDP,Durgapur Kazi Nazrul Islam Airport,33 °C,4 kts,140 °,29 °C,10 kts,220 °,6:45 AM,7:03 AM,02:12,9:20 AM
+12:50 PM,6E508,Bengaluru (BLR),IndiGo,A21N (VT-IBB),,Scheduled,"Wednesday, Jun 19",RDP,Durgapur Kazi Nazrul Islam Airport,33 °C,4 kts,140 °,23 °C,10 kts,250 °,10:20 AM,10:32 AM,02:20,12:50 PM
+1:50 PM,6E918,Hyderabad (HYD),IndiGo,A20N (VT-IQE),,Scheduled,"Wednesday, Jun 19",RDP,Durgapur Kazi Nazrul Islam Airport,33 °C,4 kts,140 °,27 °C,12 kts,260 °,11:55 AM,12:07 PM,01:47,1:50 PM
+3:55 PM,6E6042,Delhi (DEL),IndiGo,A21N (VT-IBC),,Scheduled,"Wednesday, Jun 19",RDP,Durgapur Kazi Nazrul Islam Airport,33 °C,4 kts,140 °,30 °C,10 kts,40 °,2:00 PM,2:31 PM,01:33,3:55 PM
+11:25 AM,6E5253,Kolkata (CCU),IndiGo,A20N (VT-IST),,Scheduled,"Wednesday, Jun 19",GAY,Gaya Airport,29 °C,12 kts,200 °,29 °C,10 kts,160 °,10:30 AM,11:10 AM,00:46,11:25 AM
+4:00 PM,6E2448,Delhi (DEL),IndiGo,A20N (VT-IST),,Scheduled,"Wednesday, Jun 19",GAY,Gaya Airport,29 °C,12 kts,200 °,30 °C,10 kts,40 °,2:25 PM,2:41 PM,01:20,4:00 PM
+10:30 AM,S99309,Bathinda (BUP),FlyBig,DHT,,Scheduled,"Wednesday, Jun 19",HDO,Ghaziabad Hindon Airport,,,,,,,9:00 AM,—,—,10:30 AM
+11:00 AM,S5187,Nanded (NDC),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",HDO,Ghaziabad Hindon Airport,,,,,,,9:00 AM,10:02 AM,01:45,11:00 AM
+1:50 PM,S5235,Adampur (AIP),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",HDO,Ghaziabad Hindon Airport,,,,,,,12:50 PM,1:32 PM,00:43,1:50 PM
+2:30 PM,S99307,Ludhiana (LUH),FlyBig,DHT,,Scheduled,"Wednesday, Jun 19",HDO,Ghaziabad Hindon Airport,,,,,,,,,,
+11:45 PM,QP1630,Delhi (DEL),Akasa Air,B38M (VT-YAS),,Estimated 11:22 PM,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,30 °C,10 kts,40 °,9:10 PM,9:14 PM,02:02,11:45 PM
+6:10 AM,6E6176,Bengaluru (BLR),IndiGo,A20N (VT-ITT),,Scheduled,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,23 °C,10 kts,250 °,5:05 AM,5:06 AM,00:50,6:10 AM
+6:15 AM,6E6944,Pune (PNQ),IndiGo,A20N (VT-IPW),,Scheduled,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,26 °C,8 kts,250 °,5:15 AM,5:05 AM,00:41,6:15 AM
+6:40 AM,6E6418,Ahmedabad (AMD),IndiGo,A20N (VT-IXE),,Scheduled,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,31 °C,12 kts,160 °,5:00 AM,5:02 AM,01:15,6:40 AM
+8:20 AM,6E5284,Mumbai (BOM),IndiGo,A21N (VT-ILW),,Scheduled,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,29 °C,10 kts,220 °,7:10 AM,7:22 AM,00:51,8:20 AM
+8:20 AM,UK587,Mumbai (BOM),Vistara,320,,Scheduled,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,27 °C,12 kts,220 °,7:15 AM,7:26 AM,00:51,8:20 AM
+8:25 AM,SG491,Ahmedabad (AMD),SpiceJet,320,,Scheduled,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,31 °C,13 kts,180 °,6:35 AM,6:38 AM,01:21,8:25 AM
+8:40 AM,6E946,Hyderabad (HYD),IndiGo,A320 (VT-IFK),,Scheduled,"Wednesday, Jun 19",GOX,Goa Manohar International Airport,,,,27 °C,13 kts,270 °,7:35 AM,7:32 AM,00:49,8:40 AM
+11:40 PM,6E5106,Mumbai (BOM),IndiGo,A20N (VT-IJZ),,Scheduled,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,27 °C,12 kts,220 °,10:45 PM,11:34 PM,00:43,11:40 PM
+12:40 AM,6E6532,Hyderabad (HYD),IndiGo,A320 (VT-IKK),,Scheduled,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,27 °C,13 kts,270 °,11:30 PM,11:45 PM,00:50,12:40 AM
+1:55 AM,QR522,Doha (DOH),Qatar Airways,B788 (A7-BCP),,Estimated 2:00 AM,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,36 °C,4 kts,230 °,7:40 PM,8:15 PM,—,1:55 AM
+6:05 AM,6E5202,Mumbai (BOM),IndiGo,A20N (VT-IIR),,Scheduled,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,27 °C,12 kts,220 °,4:50 AM,4:59 AM,00:44,6:05 AM
+6:20 AM,AI685,Mumbai (BOM),Air India,A20N (VT-RTH),,Scheduled,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,27 °C,12 kts,220 °,5:10 AM,5:28 AM,00:48,6:20 AM
+6:40 AM,6E743,Hyderabad (HYD),IndiGo,A20N (VT-IJJ),,Scheduled,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,27 °C,13 kts,270 °,5:30 AM,5:33 AM,00:51,6:40 AM
+7:05 AM,IX779,Delhi (DEL),Air India Express,B38M (VT-BXG),,Scheduled,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,30 °C,10 kts,90 °,4:30 AM,5:02 AM,02:08,7:05 AM
+7:30 AM,6E211,Cochin (COK),IndiGo,A20N (VT-IIL),,Scheduled,"Wednesday, Jun 19",GOI,Goa Dabolim Airport,26 °C,4 kts,130 °,25 °C,Calm,,8:00 AM,8:04 AM,01:42,9:55 AM
+1:50 PM,6E7696,Hyderabad (HYD),IndiGo,AT76 (VT-IYS),,Scheduled,"Wednesday, Jun 19",GDB,Gondia Airport,,,,27 °C,13 kts,270 °,11:45 AM,11:49 AM,01:43,1:50 PM
+9:40 AM,6E2334,Delhi (DEL),IndiGo,A320 (VT-IFP),,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,30 °C,10 kts,90 °,8:10 AM,8:28 AM,01:07,9:40 AM
+1:15 PM,6E886,Hyderabad (HYD),IndiGo,A21N (VT-ILU),,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,27 °C,13 kts,270 °,11:10 AM,11:54 AM,01:45,1:15 PM
+2:05 PM,QP1880,Bengaluru (BLR),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,23 °C,8 kts,250 °,11:15 AM,12:59 PM,02:13,2:05 PM
+3:20 PM,6E2087,Delhi (DEL),IndiGo,A20N (VT-IZO),,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,30 °C,10 kts,90 °,2:00 PM,2:28 PM,01:08,3:20 PM
+4:35 PM,6E7174,Kolkata (CCU),IndiGo,AT76 (VT-IRN),,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,29 °C,12 kts,170 °,2:35 PM,3:03 PM,01:41,4:35 PM
+5:20 PM,6E5186,Mumbai (BOM),IndiGo,A20N (VT-IZM),,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,27 °C,12 kts,220 °,3:10 PM,3:19 PM,01:58,5:20 PM
+5:25 PM,9I809,Lucknow (LKO),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,31 °C,10 kts,90 °,1:25 PM,5:20 PM,01:31,3:35 PM
+6:15 PM,QP1882,Delhi (DEL),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",GOP,Gorakhpur Airport,37 °C,2 kts,Variable,30 °C,10 kts,90 °,4:55 PM,5:02 PM,01:04,6:15 PM
+9:20 AM,S5117,Bengaluru (BLR),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",GBI,Gulbarga Kalaburagi Airport,29 °C,12 kts,260 °,23 °C,8 kts,250 °,8:10 AM,8:02 AM,00:57,9:20 AM
+5:40 PM,S5128,Tirupati (TIR),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",GBI,Gulbarga Kalaburagi Airport,29 °C,12 kts,260 °,32 °C,8 kts,220 °,,,,
+9:20 AM,S5117,Bengaluru (BLR),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",GBI,Gulbarga Kalaburagi Airport,29 °C,12 kts,260 °,23 °C,8 kts,250 °,8:10 AM,8:02 AM,00:57,9:20 AM
+10:45 PM,FD124,Bangkok (DMK),AirAsia,A320 (HS-ABN),,Landed 10:27 PM,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,29 °C,6 kts,250 °,9:35 PM,9:36 PM,02:21,10:45 PM
+11:10 PM,6E6774,Bengaluru (BLR),IndiGo,A20N (VT-IQX),,Estimated 11:06 PM,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,23 °C,8 kts,250 °,8:05 PM,8:25 PM,—,11:10 PM
+11:15 PM,IX560,Delhi (DEL),Air India Express,B38M (VT-BXF),,Delayed 12:14 AM,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,30 °C,10 kts,90 °,8:45 PM,10:17 PM,02:06,11:15 PM
+11:30 PM,6E843,Mumbai (BOM),IndiGo,A320 (VT-IHZ),,Estimated 11:33 PM,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,27 °C,12 kts,220 °,8:20 PM,8:52 PM,02:40,11:30 PM
+11:55 PM,6E2289,Delhi (DEL),IndiGo,A20N (VT-IPK),,Estimated 11:52 PM,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,30 °C,10 kts,90 °,9:30 PM,9:52 PM,02:03,11:55 PM
+5:45 AM,6E623,Pune (PNQ),IndiGo,A20N (VT-IVS),,Scheduled,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,26 °C,8 kts,250 °,2:50 AM,2:50 AM,02:45,5:45 AM
+6:50 AM,IX787,Delhi (DEL),Air India Express,B38M (VT-BXL),,Canceled,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,30 °C,10 kts,90 °,4:52 AM,4:52 AM,—,7:47 AM
+7:00 AM,AI727,Kolkata (CCU),Air India,A20N (VT-RTP),,Scheduled,"Wednesday, Jun 19",GAU,Guwahati International Airport,27 °C,4 kts,330 °,29 °C,12 kts,170 °,5:45 AM,5:53 AM,01:57,7:00 AM
+8:05 AM,IX1595,Bengaluru (BLR),Air India Express,B38M (VT-BXQ),,Scheduled,"Wednesday, Jun 19",GWL,Gwalior Airport,37 °C,10 kts,140 °,23 °C,8 kts,250 °,10:15 AM,11:35 AM,00:58,11:25 AM
+11:25 AM,IX1949,Hyderabad (HYD),Air India Express,B38M (VT-BXJ),,Scheduled,"Wednesday, Jun 19",GWL,Gwalior Airport,37 °C,10 kts,140 °,27 °C,13 kts,270 °,,,,
+12:00 PM,6E2117,Delhi (DEL),IndiGo,A20N (VT-IVA),,Scheduled,"Wednesday, Jun 19",GWL,Gwalior Airport,37 °C,10 kts,140 °,30 °C,10 kts,90 °,10:55 AM,11:21 AM,00:43,12:00 PM
+2:15 PM,6E5276,Mumbai (BOM),IndiGo,A320 (VT-IFR),,Scheduled,"Wednesday, Jun 19",GWL,Gwalior Airport,37 °C,10 kts,140 °,27 °C,12 kts,220 °,12:20 PM,12:34 PM,01:31,2:15 PM
+3:15 PM,IX1596,Delhi (DEL),Air India Express,B38M (VT-BXQ),,Scheduled,"Wednesday, Jun 19",GWL,Gwalior Airport,37 °C,10 kts,140 °,30 °C,10 kts,90 °,3:45 PM,6:38 PM,02:15,6:10 PM
+3:25 PM,9I621,Indore (IDR),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",GWL,Gwalior Airport,37 °C,10 kts,140 °,26 °C,6 kts,260 °,2:05 PM,4:41 PM,—,3:30 PM
+8:05 AM,IX1595,Bengaluru (BLR),Air India Express,B38M (VT-BXK),,Scheduled,"Wednesday, Jun 19",GWL,Gwalior Airport,37 °C,10 kts,140 °,23 °C,8 kts,250 °,10:15 AM,11:35 AM,00:58,11:25 AM
+7:35 AM,6E7227,Bengaluru (BLR),IndiGo,AT76 (VT-IYN),,Scheduled,"Wednesday, Jun 19",HBX,Hubli Airport,25 °C,16 kts,280 °,23 °C,8 kts,250 °,6:20 AM,6:35 AM,00:59,7:35 AM
+12:35 PM,6E7417,Hyderabad (HYD),IndiGo,AT76 (VT-IXY),,Scheduled,"Wednesday, Jun 19",HBX,Hubli Airport,25 °C,16 kts,280 °,27 °C,13 kts,270 °,11:20 AM,11:36 AM,01:05,12:35 PM
+3:15 PM,6E7125,Chennai (MAA),IndiGo,AT76 (VT-IRJ),,Scheduled,"Wednesday, Jun 19",HBX,Hubli Airport,25 °C,16 kts,280 °,27 °C,12 kts,270 °,,,,
+3:25 PM,6E2114,Delhi (DEL),IndiGo,A20N (VT-IPT),,Scheduled,"Wednesday, Jun 19",HBX,Hubli Airport,25 °C,16 kts,280 °,30 °C,10 kts,90 °,1:00 PM,1:16 PM,02:11,3:25 PM
+7:10 PM,6E7162,Bengaluru (BLR),IndiGo,AT76 (VT-IYN),,Scheduled,"Wednesday, Jun 19",HBX,Hubli Airport,25 °C,16 kts,280 °,23 °C,8 kts,250 °,2:00 PM,2:21 PM,01:13,3:15 PM
+7:35 AM,6E7227,Bengaluru (BLR),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",HBX,Hubli Airport,25 °C,16 kts,280 °,23 °C,8 kts,250 °,6:20 AM,6:35 AM,00:59,7:35 AM
+10:50 PM,I5320,Kolkata (CCU),AIX Connect (The Pioneer Livery),A320 (VT-JRT),,Landed 10:50 PM,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,29 °C,12 kts,170 °,8:45 PM,8:56 PM,01:53,10:50 PM
+10:50 PM,6E7241,Mangalore (IXE),IndiGo,AT76 (VT-IYH),,Delayed 11:14 PM,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,24 °C,4 kts,80 °,9:00 PM,9:29 PM,01:47,10:50 PM
+11:00 PM,6E6154,Kolkata (CCU),IndiGo,A21N (VT-IUV),,Estimated 10:59 PM,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,29 °C,12 kts,170 °,8:45 PM,9:11 PM,01:49,11:00 PM
+11:05 PM,6E945,Goa (GOX),IndiGo,A20N (VT-ISV),,Landed 10:57 PM,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,,,,9:45 PM,9:51 PM,01:06,11:05 PM
+11:10 PM,IX891,Cochin (COK),Air India Express,B38M (VT-BXC),,Scheduled,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,25 °C,Calm,,9:40 PM,12:00 AM,01:19,11:10 PM
+11:10 PM,MH198,Kuala Lumpur (KUL),Malaysia Airlines (Malaysia Negaraku Livery),B738 (9M-MXU),,Estimated 11:19 PM,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,27 °C,Calm,,9:30 PM,10:02 PM,03:51,11:10 PM
+11:15 PM,AK69,Kuala Lumpur (KUL),AirAsia,A20N (9M-RAL),,Estimated 11:06 PM,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,27 °C,Calm,,9:30 PM,9:43 PM,03:54,11:15 PM
+11:15 PM,UK871,Delhi (DEL),Vistara,A20N (VT-TQU),,Estimated 11:18 PM,"Wednesday, Jun 19",HYD,Hyderabad Rajiv Gandhi International Airport,29 °C,10 kts,250 °,30 °C,10 kts,90 °,8:55 PM,9:28 PM,02:01,11:15 PM
+8:40 AM,6E251,Guwahati (GAU),IndiGo,A20N (VT-IZO),,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,28 °C,4 kts,350 °,7:40 AM,7:42 AM,00:41,8:40 AM
+9:00 AM,IX517,Kolkata (CCU),Air India Express,B38M (VT-BXU),,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,29 °C,12 kts,170 °,,,,
+9:45 AM,9I731,Silchar (IXS),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,24 °C,2 kts,Variable,5:34 AM,5:34 AM,00:45,11:49 AM
+10:10 AM,6E6514,Kolkata (CCU),IndiGo,A20N (VT-IQO),,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,29 °C,12 kts,170 °,8:40 AM,8:57 AM,00:58,10:10 AM
+10:20 AM,9I741,Silchar (IXS),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,24 °C,2 kts,Variable,,,,
+11:20 AM,IX783,Guwahati (GAU),Air India Express,B38M (VT-BXN),,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,28 °C,4 kts,350 °,10:20 AM,10:19 AM,00:41,11:20 AM
+11:30 AM,AI733,Kolkata (CCU),Air India,A20N (VT-RTP),,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,29 °C,12 kts,170 °,12:15 PM,12:30 PM,00:40,1:10 PM
+12:15 PM,9I732,Aizawl (AJL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IMF,Imphal Airport,24 °C,Calm,,24 °C,2 kts,280 °,—,—,—,—
+11:00 PM,6E225,Mumbai (BOM),IndiGo,A320 (VT-IFR),,Estimated 11:06 PM,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,27 °C,12 kts,220 °,9:35 PM,10:13 PM,—,11:00 PM
+12:25 AM,6E747,Bengaluru (BLR),IndiGo,A20N (VT-IZF),,Estimated 12:05 AM,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,23 °C,8 kts,250 °,10:40 PM,10:35 PM,01:31,12:25 AM
+2:50 AM,6E284,Pune (PNQ),IndiGo,A320 (VT-IFR),,Scheduled,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,26 °C,8 kts,250 °,1:40 AM,1:38 AM,00:52,2:50 AM
+6:25 AM,6E377,Hyderabad (HYD),IndiGo,A20N (VT-IQI),,Scheduled,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,27 °C,13 kts,270 °,5:00 AM,5:00 AM,00:59,6:25 AM
+6:35 AM,6E2216,Delhi (DEL),IndiGo,A21N (VT-IBC),,Scheduled,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,30 °C,10 kts,90 °,5:10 AM,5:12 AM,01:03,6:35 AM
+7:05 AM,6E7173,Ahmedabad (AMD),IndiGo,AT76 (VT-IRK),,Scheduled,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,31 °C,13 kts,190 °,5:55 AM,6:11 AM,00:57,7:05 AM
+7:15 AM,UK913,Delhi (DEL),Vistara,320,,Scheduled,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,30 °C,10 kts,90 °,5:45 AM,5:52 AM,01:02,7:15 AM
+8:10 AM,6E294,Mumbai (BOM),IndiGo,A20N (VT-IVV),,Scheduled,"Wednesday, Jun 19",IDR,Indore Devi Ahilyabai Holkar Airport,27 °C,8 kts,260 °,27 °C,10 kts,230 °,6:50 AM,7:09 AM,00:56,8:10 AM
+9:55 AM,9I401,Dibrugarh (DIB),Alliance Air,D28,,Scheduled,"Wednesday, Jun 19",HGI,Itanagar Donyi Polo Airport,,,,26 °C,2 kts,Variable,,,,
+12:35 PM,9I402,Pasighat (IXT),Alliance Air,D28,,Scheduled,"Wednesday, Jun 19",HGI,Itanagar Donyi Polo Airport,,,,,,,,,,
+2:00 PM,6E6749,Kolkata (CCU),IndiGo,A20N (VT-IQO),,Scheduled,"Wednesday, Jun 19",HGI,Itanagar Donyi Polo Airport,,,,29 °C,12 kts,170 °,12:30 PM,12:53 PM,01:05,2:00 PM
+2:35 PM,6E5927,Delhi (DEL),IndiGo,A20N (VT-IIZ),,Scheduled,"Wednesday, Jun 19",HGI,Itanagar Donyi Polo Airport,,,,30 °C,10 kts,90 °,,,,
+7:35 AM,6E7316,Indore (IDR),IndiGo,AT76 (VT-IYX),,Scheduled,"Wednesday, Jun 19",JLR,Jabalpur Airport,32 °C,10 kts,230 °,25 °C,4 kts,250 °,6:10 AM,6:17 AM,00:58,7:35 AM
+9:45 AM,9I693,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",JLR,Jabalpur Airport,32 °C,10 kts,230 °,30 °C,10 kts,90 °,,,,
+3:15 PM,6E2089,Delhi (DEL),IndiGo,A20N (VT-IQP),,Scheduled,"Wednesday, Jun 19",JLR,Jabalpur Airport,32 °C,10 kts,230 °,30 °C,10 kts,90 °,1:45 PM,2:43 PM,01:08,3:15 PM
+7:10 PM,6E7307,Hyderabad (HYD),IndiGo,AT76 (VT-IYH),,Scheduled,"Wednesday, Jun 19",JLR,Jabalpur Airport,32 °C,10 kts,230 °,27 °C,13 kts,270 °,4:55 PM,5:07 PM,01:47,7:10 PM
+7:35 AM,6E7316,Indore (IDR),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",JLR,Jabalpur Airport,32 °C,10 kts,230 °,25 °C,4 kts,250 °,6:10 AM,6:17 AM,00:58,7:35 AM
+9:40 AM,9I691,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",JLR,Jabalpur Airport,32 °C,10 kts,230 °,30 °C,10 kts,90 °,10:10 AM,—,—,11:05 AM
+12:30 PM,6E7104,Hyderabad (HYD),IndiGo,AT76 (VT-IYJ),,Scheduled,"Wednesday, Jun 19",JGB,Jagdalpur Airport,33 °C,6 kts,230 °,27 °C,13 kts,270 °,11:00 AM,11:13 AM,—,12:30 PM
+12:35 PM,9I885,Hyderabad (HYD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",JGB,Jagdalpur Airport,33 °C,6 kts,230 °,27 °C,13 kts,270 °,1:45 PM,—,—,2:45 PM
+3:10 PM,6E7095,Raipur (RPR),IndiGo,AT76 (VT-IYJ),,Scheduled,"Wednesday, Jun 19",JGB,Jagdalpur Airport,33 °C,6 kts,230 °,,,,,,,
+3:10 PM,9I886,Raipur (RPR),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",JGB,Jagdalpur Airport,33 °C,6 kts,230 °,,,,4:30 PM,—,—,6:00 PM
+11:05 PM,UK565,Mumbai (BOM),Vistara,A20N (VT-TNE),,Landed 10:57 PM,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,27 °C,10 kts,230 °,9:05 PM,9:34 PM,01:23,11:05 PM
+11:15 PM,6E7413,Chandigarh (IXC),IndiGo,AT76 (VT-IXV),,Estimated 11:23 PM,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,28 °C,19 kts,20 °,,,,
+12:05 AM,6E6381,Chennai (MAA),IndiGo,A21N (VT-IME),,Delayed 1:07 AM,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,27 °C,12 kts,250 °,9:40 PM,10:55 PM,02:09,12:05 AM
+12:20 AM,I5334,Mumbai (BOM),AIX Connect,A320 (VT-GWH),,Estimated 12:12 AM,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,27 °C,10 kts,230 °,10:35 PM,10:49 PM,01:25,12:20 AM
+12:30 AM,6E6273,Bengaluru (BLR),IndiGo,A21N (VT-IBN),,Estimated 12:27 AM,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,23 °C,8 kts,250 °,10:05 PM,10:20 PM,02:05,12:30 AM
+12:45 AM,IX196,Dubai (DXB),Air India Express (Samai-Diya Livery),B738 (VT-GHD),,Estimated 12:27 AM,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,35 °C,6 kts,200 °,7:55 PM,8:09 PM,02:53,12:45 AM
+1:50 AM,6E6117,Pune (PNQ),IndiGo,A20N (VT-IQD),,Scheduled,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,26 °C,8 kts,250 °,12:15 AM,12:30 AM,01:29,1:50 AM
+4:05 AM,G9435,Sharjah (SHJ),Air Arabia,320,,Scheduled,"Wednesday, Jun 19",JAI,Jaipur Airport,37 °C,6 kts,300 °,35 °C,6 kts,160 °,11:25 PM,12:05 AM,—,4:05 AM
+8:30 AM,6E2316,Delhi (DEL),IndiGo,A21N (VT-IMN),,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,30 °C,10 kts,90 °,7:10 AM,8:01 AM,01:04,8:30 AM
+9:35 AM,6E686,Delhi (DEL),IndiGo,A20N (VT-ISW),,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,30 °C,10 kts,90 °,10:15 AM,10:25 AM,00:26,10:55 AM
+10:20 AM,6E6056,Chandigarh (IXC),IndiGo,A21N (VT-IMH),,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,28 °C,19 kts,20 °,9:25 AM,11:43 AM,00:46,10:30 AM
+10:35 AM,SG160,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,30 °C,10 kts,90 °,9:10 AM,10:10 AM,01:02,10:35 AM
+12:10 PM,AI821,Delhi (DEL),Air India,A321 (VT-PPQ),,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,30 °C,10 kts,90 °,2:15 PM,2:44 PM,01:09,3:55 PM
+12:30 PM,6E2356,Srinagar (SXR),IndiGo,A21N (VT-IBQ),,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,16 °C,2 kts,Variable,1:15 PM,1:36 PM,00:57,2:35 PM
+12:55 PM,AI592,Mumbai (BOM),Air India,A20N (VT-RTH),,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,27 °C,10 kts,230 °,,,,
+1:10 PM,6E2609,Delhi (DEL),IndiGo,A21N (VT-ILJ),,Scheduled,"Wednesday, Jun 19",IXJ,Jammu Airport,36 °C,10 kts,70 °,30 °C,10 kts,90 °,1:45 PM,1:59 PM,00:32,2:35 PM
+10:30 AM,S5131,Bengaluru (BLR),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",JGA,Jamnagar Airport,32 °C,13 kts,230 °,23 °C,8 kts,250 °,11:25 AM,11:24 AM,01:56,1:45 PM
+12:15 PM,AI647,Mumbai (BOM),Air India,A321 (VT-PPL),,Scheduled,"Wednesday, Jun 19",JGA,Jamnagar Airport,32 °C,13 kts,230 °,27 °C,10 kts,230 °,10:45 AM,11:00 AM,00:50,12:15 PM
+1:45 PM,S5131,Bengaluru (BLR),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",JGA,Jamnagar Airport,32 °C,13 kts,230 °,23 °C,8 kts,250 °,11:25 AM,11:24 AM,01:56,1:45 PM
+3:35 PM,S5150,Hyderabad (HYD),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",JGA,Jamnagar Airport,32 °C,13 kts,230 °,27 °C,13 kts,270 °,4:45 PM,10:12 PM,01:36,6:45 PM
+6:45 PM,S5150,Hyderabad (HYD),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",JGA,Jamnagar Airport,32 °C,13 kts,230 °,27 °C,13 kts,270 °,4:45 PM,10:12 PM,01:36,6:45 PM
+10:30 AM,S5131,Bengaluru (BLR),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",JGA,Jamnagar Airport,32 °C,13 kts,230 °,23 °C,8 kts,250 °,11:25 AM,11:24 AM,01:56,1:45 PM
+8:20 AM,I7105,Bhubaneswar (BBI),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",IXW,Jamshedpur Sonari Airport,31 °C,Calm,,29 °C,6 kts,200 °,7:00 AM,7:29 AM,01:13,8:20 AM
+4:00 PM,I7206,Kolkata (CCU),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",IXW,Jamshedpur Sonari Airport,31 °C,Calm,,29 °C,12 kts,170 °,3:05 PM,2:57 PM,00:50,4:00 PM
+8:20 AM,I7105,Bhubaneswar (BBI),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",IXW,Jamshedpur Sonari Airport,31 °C,Calm,,,,,7:00 AM,7:29 AM,01:13,8:20 AM
+8:55 AM,I7109,Bhubaneswar (BBI),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",PYB,Jeypore Airport,,,,29 °C,6 kts,200 °,7:20 AM,—,—,8:55 AM
+12:50 PM,I7103,Bhubaneswar (BBI),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",PYB,Jeypore Airport,,,,29 °C,6 kts,200 °,11:15 AM,10:50 AM,—,12:50 PM
+3:35 PM,I7204,Visakhapatnam (VTZ),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",PYB,Jeypore Airport,,,,29 °C,2 kts,Variable,2:45 PM,2:31 PM,—,3:35 PM
+8:55 AM,I7109,Bhubaneswar (BBI),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",PYB,Jeypore Airport,,,,29 °C,6 kts,200 °,7:20 AM,—,—,8:55 AM
+12:35 PM,6E125,Bengaluru (BLR),SmartLynx,A320 (YL-LDF),,Scheduled,"Wednesday, Jun 19",JRG,Jharsuguda Veer Surendra Sai Airport,33 °C,4 kts,280 °,23 °C,8 kts,250 °,10:25 AM,10:35 AM,—,12:35 PM
+5:15 PM,6E458,Delhi (DEL),IndiGo,A20N (VT-IZE),,Scheduled,"Wednesday, Jun 19",JRG,Jharsuguda Veer Surendra Sai Airport,33 °C,4 kts,280 °,30 °C,10 kts,90 °,3:20 PM,3:30 PM,—,5:15 PM
+7:10 PM,6E7087,Kolkata (CCU),IndiGo,AT76 (VT-IYA),,Scheduled,"Wednesday, Jun 19",JRG,Jharsuguda Veer Surendra Sai Airport,33 °C,4 kts,280 °,29 °C,12 kts,170 °,5:45 PM,5:53 PM,01:12,7:10 PM
+9:15 AM,6E6032,Bengaluru (BLR),IndiGo,A20N (VT-IQJ),,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,23 °C,8 kts,250 °,7:00 AM,7:12 AM,02:07,9:15 AM
+10:20 AM,S5137,Belgaum (IXG),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,24 °C,8 kts,260 °,,,,
+10:25 AM,6E5016,Delhi (DEL),IndiGo,A20N (VT-IPT),,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,30 °C,10 kts,90 °,9:20 AM,9:34 AM,00:49,10:25 AM
+10:45 AM,6E7074,Ahmedabad (AMD),IndiGo,AT76 (VT-IYF),,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,31 °C,13 kts,190 °,9:25 AM,9:55 AM,01:03,10:45 AM
+11:05 AM,AI645,Mumbai (BOM),Air India,A20N (VT-RTV),,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,27 °C,10 kts,230 °,9:15 AM,9:57 AM,01:14,11:05 AM
+12:15 PM,6E7359,Indore (IDR),IndiGo,AT76 (VT-IYO),,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,25 °C,4 kts,250 °,10:50 AM,10:34 AM,01:10,12:15 PM
+1:25 PM,6E133,Pune (PNQ),IndiGo,A20N (VT-ITN),,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,26 °C,8 kts,250 °,11:45 AM,11:54 AM,01:19,1:25 PM
+1:50 PM,6E5274,Mumbai (BOM),IndiGo,A21N (VT-IBZ),,Scheduled,"Wednesday, Jun 19",JDH,Jodhpur Airport,38 °C,12 kts,230 °,27 °C,10 kts,230 °,12:20 PM,12:36 PM,01:12,1:50 PM
+2:10 PM,6E326,Kolkata (CCU),IndiGo,A320 (VT-IFK),,Scheduled,"Wednesday, Jun 19",JRH,Jorhat Airport,25 °C,4 kts,50 °,29 °C,12 kts,170 °,12:40 PM,1:00 PM,01:07,2:10 PM
+11:05 AM,6E7102,Bengaluru (BLR),IndiGo,AT76 (VT-IYN),,Scheduled,"Wednesday, Jun 19",CDP,Kadapa Cuddapah Airport,33 °C,4 kts,280 °,23 °C,8 kts,250 °,,,,
+3:15 PM,6E7106,Visakhapatnam (VTZ),IndiGo,AT76 (VT-IYN),,Scheduled,"Wednesday, Jun 19",CDP,Kadapa Cuddapah Airport,33 °C,4 kts,280 °,29 °C,2 kts,Variable,,,,
+11:10 AM,6E7282,Chennai (MAA),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",CDP,Kadapa Cuddapah Airport,33 °C,4 kts,280 °,27 °C,12 kts,250 °,11:40 AM,11:30 AM,00:51,12:45 PM
+2:00 PM,SG2905,Mumbai (BOM),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",IXY,Kandla Airport,,,,26 °C,6 kts,200 °,12:05 PM,12:27 PM,01:10,2:00 PM
+5:40 PM,SG2347,Delhi (DEL),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",IXY,Kandla Airport,,,,31 °C,6 kts,110 °,3:30 PM,3:58 PM,01:56,5:40 PM
+11:35 PM,IX748,Dubai (DXB),Air India Express,B38M (VT-BXP),,Estimated 11:35 PM,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,34 °C,6 kts,190 °,6:05 PM,6:28 PM,03:36,11:35 PM
+2:55 AM,IX794,Kuwait City (KWI),Air India Express,B738 (VT-TGH),,Estimated 2:41 AM,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,,,,7:25 PM,7:45 PM,—,2:55 AM
+3:10 AM,IX752,Ra'sal-Khaymah (RKT),Air India Express (Great Stupa-Charminar Livery),B738 (VT-AXW),,Estimated 2:26 AM,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,35 °C,8 kts,190 °,9:45 PM,9:25 PM,03:39,3:10 AM
+5:05 AM,IX774,Doha (DOH),Air India Express (Kochi-Muziris Biennale Livery),B738 (VT-AXN),,Scheduled,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,35 °C,6 kts,Variable,10:20 PM,10:34 PM,—,5:05 AM
+7:25 AM,6E7728,Bengaluru (BLR),IndiGo,AT76 (VT-IRA),,Scheduled,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,22 °C,10 kts,250 °,6:10 AM,6:33 AM,00:49,7:25 AM
+8:40 AM,6E1434,Abu Dhabi (AUH),IndiGo,A20N (VT-IQV),,Scheduled,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,33 °C,6 kts,210 °,3:45 AM,4:15 AM,03:36,8:40 AM
+9:10 AM,6E7225,Hyderabad (HYD),IndiGo,AT76 (VT-IRB),,Scheduled,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,26 °C,13 kts,260 °,7:05 AM,7:09 AM,01:38,9:10 AM
+12:30 PM,IX712,Muscat (MCT),Air India Express (Great Stupa-Charminar Livery),B738 (VT-AXW),,Scheduled,"Wednesday, Jun 19",CNN,Kannur International Airport,25 °C,4 kts,160 °,35 °C,4 kts,300 °,,,,
+12:00 PM,6E6035,Bengaluru (BLR),IndiGo,A20N (VT-IJU),,Scheduled,"Wednesday, Jun 19",KNU,Kanpur Airport,,,,22 °C,10 kts,250 °,8:40 AM,9:02 AM,—,10:55 AM
+2:05 PM,6E5396,Delhi (DEL),IndiGo,A20N (VT-ISL),,Scheduled,"Wednesday, Jun 19",KNU,Kanpur Airport,,,,31 °C,6 kts,110 °,12:45 PM,12:50 PM,00:49,2:05 PM
+2:50 PM,6E824,Mumbai (BOM),IndiGo,A20N (VT-IQL),,Scheduled,"Wednesday, Jun 19",KNU,Kanpur Airport,,,,26 °C,6 kts,200 °,12:50 PM,12:57 PM,01:42,2:50 PM
+12:05 PM,9I603,Ahmedabad (AMD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXK,Keshod Airport,,,,31 °C,12 kts,200 °,,,,
+6:10 PM,SG2931,Delhi (DEL),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",HJR,Khajuraho Airport,,,,31 °C,6 kts,110 °,4:35 PM,4:48 PM,01:02,6:10 PM
+11:05 AM,S5191,Nagpur (NAG),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",KQH,Kishangarh Airport,,,,27 °C,4 kts,200 °,,,,
+4:40 PM,S5143,Surat (STV),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",KQH,Kishangarh Airport,,,,29 °C,10 kts,220 °,,,,
+9:30 AM,S5200,Pune (PNQ),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",KQH,Kishangarh Airport,,,,26 °C,8 kts,250 °,12:00 PM,12:04 PM,01:25,1:45 PM
+11:05 AM,S5191,Nagpur (NAG),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",KQH,Kishangarh Airport,,,,27 °C,4 kts,200 °,,,,
+10:00 AM,S5194,Bengaluru (BLR),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",KLH,Kolhapur Airport,26 °C,13 kts,250 °,22 °C,10 kts,250 °,,,,
+12:20 PM,6E7563,Hyderabad (HYD),IndiGo,AT76 (VT-IRE),,Scheduled,"Wednesday, Jun 19",KLH,Kolhapur Airport,26 °C,13 kts,250 °,26 °C,13 kts,260 °,10:50 AM,10:57 AM,01:10,12:20 PM
+3:30 PM,6E7445,Bengaluru (BLR),IndiGo,AT76 (VT-IRA),,Scheduled,"Wednesday, Jun 19",KLH,Kolhapur Airport,26 °C,13 kts,250 °,22 °C,10 kts,250 °,1:45 PM,2:02 PM,—,3:30 PM
+4:30 PM,S5161,Mumbai (BOM),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",KLH,Kolhapur Airport,26 °C,13 kts,250 °,26 °C,6 kts,200 °,9:30 AM,9:38 AM,00:41,10:35 AM
+10:00 AM,S5194,Bengaluru (BLR),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",KLH,Kolhapur Airport,26 °C,13 kts,250 °,22 °C,10 kts,250 °,,,,
+11:05 PM,I5558,Bengaluru (BLR),AIX Connect,A320 (VT-NAG),,Landed 10:42 PM,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,22 °C,10 kts,250 °,8:15 PM,8:27 PM,02:15,11:05 PM
+11:10 PM,6E944,Hyderabad (HYD),IndiGo,A21N (VT-IMV),,Landed 10:57 PM,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,26 °C,13 kts,260 °,9:05 PM,9:16 PM,01:41,11:10 PM
+11:10 PM,6E7117,Bhubaneswar (BBI),IndiGo,AT76 (VT-IYI),,Landed 11:17 PM,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,29 °C,8 kts,180 °,9:45 PM,10:05 PM,01:12,11:10 PM
+11:15 PM,CX42,Delhi (DEL),Cathay Pacific,74Y,,Scheduled,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,31 °C,6 kts,110 °,9:05 PM,—,—,11:15 PM
+11:20 PM,6E923,Chennai (MAA),IndiGo,A21N (VT-IMD),,Delayed 11:52 PM,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,27 °C,10 kts,250 °,9:00 PM,9:57 PM,02:02,11:20 PM
+11:25 PM,AI762,Delhi (DEL),Air India,A321 (VT-PPI),,Estimated 11:22 PM,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,31 °C,6 kts,110 °,9:10 PM,9:30 PM,01:55,11:25 PM
+11:25 PM,6E389,Delhi (DEL),IndiGo,A21N (VT-ILH),,Landed 11:10 PM,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,31 °C,6 kts,110 °,9:15 PM,9:18 PM,01:52,11:25 PM
+11:30 PM,6E6566,Indore (IDR),IndiGo,A20N (VT-IVX),,Estimated 11:19 PM,"Wednesday, Jun 19",CCU,Kolkata Subhas Chandra Bose International Airport,28 °C,10 kts,170 °,25 °C,8 kts,250 °,9:20 PM,9:23 PM,01:58,11:30 PM
+2:30 AM,QR536,Doha (DOH),Qatar Airways,A320 (A7-AHD),,Estimated 2:11 AM,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,35 °C,6 kts,Variable,7:40 PM,7:51 PM,03:59,2:30 AM
+3:30 AM,G9454,Sharjah (SHJ),Air Arabia,320,,Scheduled,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,34 °C,6 kts,170 °,10:20 PM,10:42 PM,—,3:30 AM
+3:55 AM,OV773,Muscat (MCT),SalamAir,32N,,Scheduled,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,35 °C,4 kts,300 °,10:55 PM,11:10 PM,—,3:55 AM
+4:40 AM,GF260,Bahrain (BAH),Gulf Air,321,,Scheduled,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,38 °C,6 kts,260 °,9:25 PM,9:33 PM,—,4:40 AM
+4:50 AM,3L200,Abu Dhabi (AUH),Air Arabia Abu Dhabi,320,,Scheduled,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,33 °C,6 kts,210 °,11:20 PM,—,—,4:50 AM
+5:20 AM,IX344,Dubai (DXB),Air India Express (Beach-Himalayas Livery),B738 (VT-AXX),,Scheduled,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,34 °C,6 kts,190 °,11:40 PM,11:58 PM,—,5:20 AM
+6:45 AM,6E7091,Chennai (MAA),IndiGo,AT76 (VT-IRG),,Scheduled,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,27 °C,10 kts,250 °,5:10 AM,5:20 AM,01:23,6:45 AM
+6:55 AM,6E88,Dammam (DMM),IndiGo,A20N (VT-IIG),,Scheduled,"Wednesday, Jun 19",CCJ,Kozhikode Calicut International Airport,27 °C,4 kts,190 °,35 °C,4 kts,260 °,12:05 AM,12:19 AM,04:16,6:55 AM
+8:00 AM,9I803,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",KUU,Kullu Bhuntar Airport,30 °C,Calm,,31 °C,6 kts,110 °,6:35 AM,6:56 AM,01:05,8:00 AM
+11:20 AM,9I802,Dehradun (DED),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",KUU,Kullu Bhuntar Airport,30 °C,Calm,,23 °C,8 kts,60 °,,,,
+8:00 AM,9I803,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",KUU,Kullu Bhuntar Airport,30 °C,Calm,,31 °C,6 kts,110 °,6:35 AM,6:56 AM,01:05,8:00 AM
+11:10 AM,9I808,Amritsar (ATQ),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",KUU,Kullu Bhuntar Airport,30 °C,Calm,,28 °C,10 kts,20 °,—,—,—,12:31 PM
+11:25 AM,6E7086,Chennai (MAA),IndiGo,AT76 (VT-IRH),,Scheduled,"Wednesday, Jun 19",KJB,Kurnool Airport,33 °C,10 kts,260 °,27 °C,10 kts,250 °,,,,
+3:25 PM,6E7913,Visakhapatnam (VTZ),IndiGo,AT76 (VT-IRH),,Scheduled,"Wednesday, Jun 19",KJB,Kurnool Airport,33 °C,10 kts,260 °,29 °C,2 kts,Variable,,,,
+6:20 AM,AI477,Delhi (DEL),Air India,A20N (VT-EXF),,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,31 °C,6 kts,110 °,,,,
+7:00 AM,6E2003,Delhi (DEL),IndiGo,A20N (VT-IQP),,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,31 °C,6 kts,110 °,5:40 AM,5:47 AM,—,7:00 AM
+7:25 AM,SG121,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,31 °C,6 kts,110 °,6:10 AM,6:15 AM,—,7:25 AM
+7:50 AM,6E2006,Delhi (DEL),IndiGo,A20N (VT-IZI),,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,31 °C,6 kts,110 °,6:30 AM,6:32 AM,—,7:50 AM
+8:10 AM,AI445,Delhi (DEL),Air India,A20N (VT-EXQ),,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,31 °C,6 kts,110 °,6:40 AM,7:03 AM,—,8:10 AM
+8:40 AM,UK601,Delhi (DEL),Vistara,320,,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,31 °C,6 kts,110 °,7:00 AM,7:15 AM,—,8:40 AM
+10:10 AM,SG8125,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,31 °C,6 kts,110 °,8:45 AM,9:24 AM,—,10:10 AM
+10:20 AM,6E802,Mumbai (BOM),IndiGo,A20N (VT-IZM),,Scheduled,"Wednesday, Jun 19",IXL,Leh Kushok Bakula Rimpochee Airport,18 °C,16 kts,290 °,26 °C,6 kts,200 °,7:20 AM,7:50 AM,—,10:20 AM
+12:20 PM,9I729,Shillong (SHL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXI,Lilabari Airport,,,,23 °C,Calm,,,,,
+8:05 AM,9I751,Kolkata (CCU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXI,Lilabari Airport,,,,29 °C,12 kts,170 °,5:55 AM,6:11 AM,02:00,8:05 AM
+6:00 AM,6E338,Pune (PNQ),IndiGo,A320 (VT-IFS),,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,26 °C,8 kts,250 °,3:55 AM,4:11 AM,01:53,6:00 AM
+6:05 AM,OV705,Muscat (MCT),SalamAir,32N,,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,35 °C,4 kts,300 °,,,,
+6:25 AM,FZ443,Dubai (DXB),FlyDubai,73H,,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,34 °C,6 kts,190 °,,,,
+6:30 AM,IX142,Dammam (DMM),Air India Express,B38M (VT-BXI),,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,35 °C,4 kts,260 °,11:30 PM,11:45 PM,—,6:30 AM
+6:35 AM,I5548,Delhi (DEL),AIX Connect,A320 (VT-KUL),,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,31 °C,6 kts,110 °,5:15 AM,5:21 AM,00:52,6:35 AM
+6:45 AM,6E5225,Mumbai (BOM),IndiGo,A20N (VT-ISU),,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,26 °C,6 kts,200 °,4:45 AM,4:54 AM,02:02,6:45 AM
+6:55 AM,6E5327,Delhi (DEL),IndiGo,A20N (VT-IQT),,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,31 °C,6 kts,110 °,5:45 AM,5:44 AM,00:57,6:55 AM
+7:00 AM,6E7319,Jaipur (JAI),IndiGo,AT76 (VT-IYV),,Scheduled,"Wednesday, Jun 19",LKO,Lucknow Chaudhary Charan Singh Airport,35 °C,6 kts,230 °,34 °C,10 kts,260 °,5:15 AM,5:20 AM,01:30,7:00 AM
+12:30 PM,S99306,Ghaziabad (HDO),FlyBig,DHT,,Scheduled,"Wednesday, Jun 19",LUH,Ludhiana Sahnewal Airport,,,,,,,,,,
+7:25 AM,6E7183,Chennai (MAA),IndiGo,AT76 (VT-IYK),,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,27 °C,10 kts,250 °,5:50 AM,5:59 AM,01:07,7:25 AM
+7:35 AM,6E7171,Bengaluru (BLR),IndiGo,AT76 (VT-IYM),,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,22 °C,10 kts,250 °,6:20 AM,6:37 AM,01:01,7:35 AM
+8:15 AM,6E7167,Chennai (MAA),IndiGo,AT76 (VT-IRJ),,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,27 °C,10 kts,250 °,7:00 AM,6:57 AM,01:07,8:15 AM
+8:25 AM,6E2427,Delhi (DEL),IndiGo,A320 (VT-IFZ),,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,31 °C,6 kts,110 °,5:25 AM,5:27 AM,02:45,8:25 AM
+11:10 AM,SG24,Dubai (DXB),SpiceJet,7M8,,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,34 °C,6 kts,190 °,5:00 AM,5:04 AM,04:01,11:10 AM
+11:20 AM,6E7207,Bengaluru (BLR),IndiGo,AT76 (VT-IYM),,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,22 °C,10 kts,250 °,9:45 AM,10:20 AM,01:11,11:20 AM
+11:35 AM,6E7185,Chennai (MAA),IndiGo,AT76 (VT-IYW),,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,27 °C,10 kts,250 °,10:00 AM,10:14 AM,—,11:35 AM
+11:55 AM,IX683,Singapore (SIN),Air India Express (Chundan Vallam-Kalaripayattu),B738 (VT-AXR),,Scheduled,"Wednesday, Jun 19",IXM,Madurai Airport,28 °C,2 kts,160 °,27 °C,4 kts,320 °,10:00 AM,1:20 PM,—,11:55 AM
+3:45 AM,IX796,Jeddah (JED),Air India Express (Kathakali-Bharatanatyam Livery),B738 (VT-GHE),,Delayed 4:04 AM,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,33 °C,6 kts,300 °,7:25 PM,8:29 PM,—,3:45 AM
+5:00 AM,IX886,Dammam (DMM),Air India Express (Himalayan Peaks-Desert Livery),B738 (VT-AXZ),,Scheduled,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,35 °C,4 kts,260 °,10:10 PM,10:12 PM,—,5:00 AM
+7:15 AM,AI679,Mumbai (BOM),Air India,A320 (VT-EXA),,Scheduled,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,27 °C,6 kts,170 °,5:45 AM,6:08 AM,01:14,7:15 AM
+7:35 AM,6E7346,Chennai (MAA),IndiGo,AT76 (VT-IRH),,Scheduled,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,27 °C,10 kts,250 °,5:40 AM,5:44 AM,01:26,7:35 AM
+7:55 AM,IX814,Dubai (DXB),Air India Express (Peacock-Stork Livery),B738 (VT-AXT),,Scheduled,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,34 °C,6 kts,190 °,2:25 AM,2:46 AM,03:25,7:55 AM
+8:10 AM,6E7549,Hyderabad (HYD),IndiGo,AT76 (VT-IXY),,Scheduled,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,26 °C,13 kts,260 °,6:25 AM,6:35 AM,01:38,8:10 AM
+8:15 AM,6E6858,Bengaluru (BLR),IndiGo,A21N (VT-IMM),,Scheduled,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,22 °C,10 kts,250 °,7:20 AM,7:22 AM,00:37,8:15 AM
+10:30 AM,6E6162,Bengaluru (BLR),IndiGo,A20N (VT-IIH),,Scheduled,"Wednesday, Jun 19",IXE,Mangalore International Airport,25 °C,6 kts,50 °,22 °C,10 kts,250 °,9:35 AM,10:16 AM,00:34,10:30 AM
+11:15 PM,AI668,Thiruvananthapuram (TRV),Air India,A20N (VT-RTU),,Landed 11:03 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,26 °C,Calm,,8:40 PM,8:45 PM,02:18,11:15 PM
+11:15 PM,6E395,Delhi (DEL),IndiGo,A21N (VT-IBT),,Landed 11:12 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,31 °C,6 kts,110 °,9:00 PM,9:17 PM,01:56,11:15 PM
+11:20 PM,AI642,Bengaluru (BLR),Air India,A20N (VT-RTV),,Delayed 11:38 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,22 °C,10 kts,250 °,9:25 PM,10:19 PM,01:34,11:20 PM
+11:20 PM,UK840,Bengaluru (BLR),Vistara,A20N (VT-TQN),,Delayed 11:37 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,22 °C,10 kts,250 °,9:35 PM,10:14 PM,01:31,11:20 PM
+11:20 PM,6E5083,Bhopal (BHO),IndiGo,A20N (VT-IIN),,Delayed 11:38 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,30 °C,8 kts,180 °,10:00 PM,10:36 PM,01:10,11:20 PM
+11:25 PM,AI517,Cochin (COK),Air India,A20N (VT-CIH),,Estimated 11:34 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,25 °C,Calm,,9:05 PM,9:52 PM,01:55,11:25 PM
+11:25 PM,AI574,Chennai (MAA),Air India,A319 (VT-SCV),,Estimated 11:28 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,27 °C,10 kts,250 °,9:15 PM,9:48 PM,01:40,11:25 PM
+11:25 PM,UK776,Kolkata (CCU),Vistara,A20N (VT-TQP),,Estimated 11:31 PM,"Wednesday, Jun 19",BOM,Mumbai Chhatrapati Shivaji International Airport,29 °C,6 kts,210 °,29 °C,10 kts,170 °,8:30 PM,9:13 PM,02:30,11:25 PM
+11:00 AM,6E7603,Chennai (MAA),IndiGo,AT76 (VT-IRD),,Scheduled,"Wednesday, Jun 19",MYQ,Mysore Airport,25 °C,10 kts,270 °,27 °C,10 kts,250 °,9:35 AM,9:37 AM,01:14,11:00 AM
+12:40 PM,6E7126,Hyderabad (HYD),IndiGo,AT76 (VT-IYX),,Scheduled,"Wednesday, Jun 19",MYQ,Mysore Airport,25 °C,10 kts,270 °,26 °C,13 kts,260 °,10:50 AM,11:03 AM,01:28,12:40 PM
+11:00 AM,6E7603,Chennai (MAA),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",MYQ,Mysore Airport,25 °C,10 kts,270 °,27 °C,10 kts,250 °,9:35 AM,9:37 AM,01:14,11:00 AM
+1:40 AM,6E5264,Mumbai (BOM),IndiGo,A20N (VT-IPS),,Scheduled,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,27 °C,6 kts,170 °,12:10 AM,12:33 AM,01:11,1:40 AM
+1:45 AM,6E6798,Pune (PNQ),IndiGo,A20N (VT-IVC),,Scheduled,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,26 °C,8 kts,250 °,12:20 AM,12:58 AM,00:59,1:45 AM
+2:50 AM,QR590,Doha (DOH),Qatar Airways (25 Years of Excellence Sticker),A320 (A7-AHG),,Estimated 2:56 AM,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,35 °C,6 kts,260 °,8:05 PM,8:48 PM,03:45,2:50 AM
+6:30 AM,6E2447,Pune (PNQ),IndiGo,A20N (VT-IZZ),,Scheduled,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,26 °C,8 kts,250 °,5:05 AM,5:00 AM,00:59,6:30 AM
+6:45 AM,6E2431,Delhi (DEL),IndiGo,A21N (VT-IBQ),,Scheduled,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,31 °C,6 kts,110 °,5:10 AM,5:16 AM,01:26,6:45 AM
+6:55 AM,6E6003,Bengaluru (BLR),IndiGo,A21N (VT-ILM),,Scheduled,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,22 °C,10 kts,250 °,5:15 AM,5:16 AM,01:17,6:55 AM
+7:45 AM,6E5124,Mumbai (BOM),IndiGo,A20N (VT-IIN),,Scheduled,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,27 °C,6 kts,170 °,6:20 AM,6:42 AM,01:12,7:45 AM
+7:50 AM,6E7452,Hyderabad (HYD),IndiGo,AT76 (VT-IYR),,Scheduled,"Wednesday, Jun 19",NAG,Nagpur Dr. Babasaheb Ambedkar International Airport,28 °C,4 kts,170 °,26 °C,13 kts,260 °,6:15 AM,6:29 AM,01:07,7:50 AM
+8:35 AM,S5183,Bengaluru (BLR),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",NDC,Nanded Airport,,,,22 °C,10 kts,250 °,7:15 AM,8:19 AM,01:05,8:35 AM
+8:45 AM,S5196,Hyderabad (HYD),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",NDC,Nanded Airport,,,,26 °C,13 kts,260 °,7:25 AM,7:34 AM,00:38,8:30 AM
+4:00 PM,S5219,Ahmedabad (AMD),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",NDC,Nanded Airport,,,,31 °C,8 kts,180 °,,,,
+4:15 PM,S5186,Ghaziabad (HDO),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",NDC,Nanded Airport,,,,,,,,,,
+8:35 AM,S5183,Bengaluru (BLR),Abakan Air,ERJ,,Scheduled,"Wednesday, Jun 19",NDC,Nanded Airport,,,,22 °C,10 kts,250 °,7:15 AM,8:19 AM,01:05,8:35 AM
+8:50 AM,6E2036,Delhi (DEL),IndiGo,A320 (VT-IAS),,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,31 °C,6 kts,110 °,7:05 AM,7:20 AM,01:34,8:50 AM
+10:25 AM,6E7115,Ahmedabad (AMD),IndiGo,AT76 (VT-IRK),,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,31 °C,8 kts,180 °,,,,
+10:45 AM,6E7108,Indore (IDR),IndiGo,AT76 (VT-IYB),,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,25 °C,8 kts,250 °,,,,
+11:25 AM,6E7462,Nagpur (NAG),IndiGo,AT76 (VT-IYV),,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,27 °C,4 kts,180 °,9:40 AM,9:53 AM,01:23,11:25 AM
+2:05 PM,6E7136,Hyderabad (HYD),IndiGo,AT76 (VT-IYP),,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,26 °C,13 kts,260 °,12:10 PM,12:11 PM,01:28,2:05 PM
+4:00 PM,6E7454,Goa (GOX),IndiGo,AT76 (VT-IYV),,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,,,,2:10 PM,—,—,4:00 PM
+8:50 AM,6E2036,Delhi (DEL),IndiGo,32N,,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,31 °C,6 kts,110 °,7:05 AM,7:20 AM,01:34,8:50 AM
+10:25 AM,6E7115,Ahmedabad (AMD),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",ISK,Nashik Ozar Airport,,,,31 °C,8 kts,180 °,,,,
+9:20 AM,6E7156,Delhi (DEL),IndiGo,AT76 (VT-IYL),,Scheduled,"Wednesday, Jun 19",PGH,Pantnagar Airport,39 °C,10 kts,270 °,31 °C,6 kts,110 °,8:20 AM,8:48 AM,00:46,9:20 AM
+10:10 AM,9I647,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",PGH,Pantnagar Airport,39 °C,10 kts,270 °,31 °C,6 kts,110 °,,,,
+12:10 PM,6E7324,Delhi (DEL),IndiGo,AT76 (VT-IYL),,Scheduled,"Wednesday, Jun 19",PGH,Pantnagar Airport,39 °C,10 kts,270 °,31 °C,6 kts,110 °,11:10 AM,11:51 AM,00:48,12:10 PM
+1:55 PM,9I648,Varanasi (VNS),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",PGH,Pantnagar Airport,39 °C,10 kts,270 °,35 °C,6 kts,230 °,,,,
+9:20 AM,6E7156,Delhi (DEL),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",PGH,Pantnagar Airport,39 °C,10 kts,270 °,31 °C,6 kts,110 °,8:20 AM,8:48 AM,00:46,9:20 AM
+11:15 AM,9I401,Itanagar (HGI),Alliance Air,D28,,Scheduled,"Wednesday, Jun 19",IXT,Pasighat Airport,,,,,,,,,,
+8:00 AM,6E5058,Delhi (DEL),IndiGo,A20N (VT-ISJ),,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,31 °C,6 kts,110 °,6:20 AM,6:38 AM,01:16,8:00 AM
+8:35 AM,6E713,Kolkata (CCU),IndiGo,A20N (VT-IIB),,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,29 °C,10 kts,170 °,7:15 AM,7:13 AM,00:49,8:35 AM
+9:20 AM,6E6394,Chandigarh (IXC),IndiGo,A20N (VT-IPL),,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,28 °C,19 kts,20 °,9:55 AM,9:49 AM,00:57,11:25 AM
+10:05 AM,UK717,Delhi (DEL),Vistara,320,,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,31 °C,6 kts,110 °,8:20 AM,9:01 AM,01:14,10:05 AM
+10:20 AM,6E2769,Delhi (DEL),IndiGo,A20N (VT-ISO),,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,31 °C,6 kts,110 °,8:40 AM,9:16 AM,01:18,10:20 AM
+10:30 AM,6E6719,Hyderabad (HYD),IndiGo,A20N (VT-ITX),,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,26 °C,13 kts,260 °,8:30 AM,8:45 AM,01:42,10:30 AM
+10:55 AM,6E6801,Bengaluru (BLR),IndiGo,A20N (VT-ITT),,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,22 °C,10 kts,250 °,,,,
+11:15 AM,6E6902,Lucknow (LKO),IndiGo,A320 (VT-IFM),,Scheduled,"Wednesday, Jun 19",PAT,Patna Jay Prakash Narayan International Airport,32 °C,12 kts,110 °,28 °C,8 kts,110 °,11:15 AM,11:36 AM,00:36,12:05 PM
+9:00 AM,9I601,Ahmedabad (AMD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",PBD,Porbandar Airport,34 °C,16 kts,250 °,30 °C,10 kts,200 °,,,,
+9:00 AM,9I601,Ahmedabad (AMD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",PBD,Porbandar Airport,34 °C,16 kts,250 °,30 °C,10 kts,200 °,,,,
+6:55 AM,6E526,Chennai (MAA),IndiGo,A20N (VT-IPZ),,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,27 °C,10 kts,240 °,4:40 AM,4:51 AM,01:56,6:55 AM
+7:15 AM,AI549,Chennai (MAA),Air India,A20N (VT-EXR),,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,27 °C,10 kts,240 °,5:05 AM,5:15 AM,01:58,7:15 AM
+7:50 AM,AI787,Kolkata (CCU),Air India,A20N (VT-RTQ),,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,29 °C,8 kts,160 °,5:40 AM,6:00 AM,01:59,7:50 AM
+8:00 AM,6E2106,Kolkata (CCU),IndiGo,A20N (VT-IPV),,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,29 °C,8 kts,160 °,5:50 AM,5:58 AM,01:55,8:00 AM
+9:15 AM,6E6305,Hyderabad (HYD),IndiGo,A20N (VT-IPF),,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,26 °C,13 kts,260 °,6:35 AM,6:38 AM,02:17,9:15 AM
+10:05 AM,QP1485,Chennai (MAA),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,27 °C,10 kts,240 °,7:45 AM,7:58 AM,01:57,10:05 AM
+10:20 AM,AI485,Visakhapatnam (VTZ),Air India,A20N (VT-EXS),,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,29 °C,6 kts,240 °,,,,
+11:15 AM,6E345,Kolkata (CCU),IndiGo,A20N (VT-IPS),,Scheduled,"Wednesday, Jun 19",IXZ,Port Blair Veer Savarkar International Airport,26 °C,6 kts,220 °,29 °C,8 kts,160 °,8:50 AM,9:01 AM,02:09,11:15 AM
+11:25 PM,6E2674,Delhi (DEL),IndiGo,A21N (VT-IBQ),,Landed 11:30 PM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,30 °C,6 kts,140 °,9:20 PM,9:51 PM,01:39,11:25 PM
+11:40 PM,6E6943,Goa (GOX),IndiGo,A20N (VT-IPW),,Landed 11:17 PM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,,,,10:40 PM,10:39 PM,00:38,11:40 PM
+11:50 PM,AI847,Delhi (DEL),Air India,A21N (VT-RTE),,Estimated 12:05 AM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,30 °C,6 kts,140 °,9:45 PM,10:27 PM,01:37,11:50 PM
+11:55 PM,SG2919,Hyderabad (HYD),SpiceJet,DH8D (VT-SQB),,Estimated 11:56 PM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,26 °C,13 kts,260 °,10:25 PM,10:48 PM,01:07,11:55 PM
+12:05 AM,6E116,Bengaluru (BLR),IndiGo,A21N (VT-IBF),,Estimated 11:50 PM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,22 °C,10 kts,250 °,10:40 PM,10:42 PM,01:10,12:05 AM
+12:10 AM,6E835,Nagpur (NAG),IndiGo,A20N (VT-IZZ),,Estimated 12:24 AM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,27 °C,4 kts,160 °,11:00 PM,11:28 PM,00:54,12:10 AM
+12:15 AM,I5788,Delhi (DEL),AIX Connect,A320 (VT-HKG),,Delayed 12:48 AM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,30 °C,6 kts,140 °,10:15 PM,11:30 PM,01:42,12:15 AM
+12:20 AM,6E681,Chandigarh (IXC),IndiGo,A20N (VT-IJB),,Delayed 1:22 AM,"Wednesday, Jun 19",PNQ,Pune Airport,26 °C,8 kts,250 °,28 °C,19 kts,20 °,,,,
+8:05 AM,6E139,Kolkata (CCU),IndiGo,A20N (VT-IPN),,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,29 °C,8 kts,160 °,6:40 AM,6:54 AM,01:05,8:05 AM
+8:15 AM,6E5223,Mumbai (BOM),IndiGo,A21N (VT-ILT),,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,25 °C,8 kts,190 °,6:20 AM,6:39 AM,01:30,8:15 AM
+8:20 AM,UK793,Delhi (DEL),Vistara,320,,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,30 °C,6 kts,140 °,6:40 AM,6:58 AM,01:21,8:20 AM
+9:00 AM,6E2062,Delhi (DEL),IndiGo,A21N (VT-ILJ),,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,30 °C,6 kts,140 °,7:10 AM,7:34 AM,01:22,9:00 AM
+9:45 AM,6E6521,Lucknow (LKO),IndiGo,A320 (VT-IAX),,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,28 °C,8 kts,110 °,10:15 AM,10:21 AM,00:46,11:10 AM
+9:55 AM,6E211,Goa (GOI),IndiGo,A20N (VT-IIL),,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,26 °C,4 kts,140 °,8:00 AM,8:04 AM,01:42,9:55 AM
+10:50 AM,6E6467,Hyderabad (HYD),IndiGo,A320 (VT-IKK),,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,26 °C,13 kts,260 °,9:30 AM,9:37 AM,00:58,10:50 AM
+11:55 AM,6E405,Bengaluru (BLR),IndiGo,A20N (VT-IIG),,Scheduled,"Wednesday, Jun 19",RPR,Raipur Swami Vivekananda Airport,,,,22 °C,10 kts,250 °,9:55 AM,10:27 AM,01:30,11:55 AM
+7:50 AM,6E7118,Hyderabad (HYD),IndiGo,AT76 (VT-IYH),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,26 °C,13 kts,260 °,6:30 AM,6:50 AM,01:16,7:50 AM
+8:00 AM,6E7107,Bengaluru (BLR),IndiGo,AT76 (VT-IXX),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,22 °C,10 kts,250 °,6:00 AM,6:00 AM,01:54,8:00 AM
+9:35 AM,6E7477,Hyderabad (HYD),IndiGo,AT76 (VT-IYS),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,26 °C,13 kts,260 °,8:15 AM,8:25 AM,01:01,9:35 AM
+11:35 AM,6E7228,Hyderabad (HYD),IndiGo,AT76 (VT-IYH),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,26 °C,13 kts,260 °,10:10 AM,10:42 AM,01:00,11:35 AM
+12:05 PM,6E7231,Bengaluru (BLR),IndiGo,AT76 (VT-IRM),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,22 °C,10 kts,250 °,10:05 AM,10:29 AM,01:35,12:05 PM
+2:55 PM,6E7311,Hyderabad (HYD),IndiGo,AT76 (VT-IYH),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,26 °C,13 kts,260 °,1:35 PM,1:52 PM,00:59,2:55 PM
+4:00 PM,6E7262,Chennai (MAA),IndiGo,AT76 (VT-IRG),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,27 °C,10 kts,240 °,2:25 PM,2:59 PM,01:25,4:00 PM
+6:10 PM,6E7545,Hyderabad (HYD),IndiGo,AT76 (VT-IYP),,Scheduled,"Wednesday, Jun 19",RJA,Rajahmundry Airport,31 °C,6 kts,250 °,26 °C,13 kts,260 °,4:50 PM,5:00 PM,00:59,6:10 PM
+7:45 AM,6E7561,Kolkata (CCU),IndiGo,AT76 (VT-IYT),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,29 °C,8 kts,160 °,6:25 AM,6:26 AM,01:03,7:45 AM
+7:55 AM,6E6484,Pune (PNQ),IndiGo,A20N (VT-IPG),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,26 °C,8 kts,250 °,5:55 AM,5:49 AM,01:53,7:55 AM
+8:25 AM,I5331,Mumbai (BOM),AIX Connect,A320 (VT-AMD),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,25 °C,8 kts,190 °,5:50 AM,6:07 AM,02:02,8:25 AM
+9:00 AM,6E2022,Delhi (DEL),SmartLynx,A320 (ES-SAZ),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,30 °C,6 kts,140 °,7:20 AM,7:43 AM,01:29,9:00 AM
+9:50 AM,I5744,Delhi (DEL),AIX Connect,A320 (VT-HKG),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,30 °C,6 kts,140 °,8:10 AM,8:32 AM,01:34,9:50 AM
+10:25 AM,6E421,Hyderabad (HYD),IndiGo,A21N (VT-IUP),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,26 °C,13 kts,260 °,8:40 AM,9:04 AM,01:28,10:25 AM
+11:25 AM,I5819,Bengaluru (BLR),AIX Connect,A320 (VT-BOM),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,22 °C,10 kts,250 °,9:05 AM,9:34 AM,02:01,11:25 AM
+11:55 AM,6E6152,Kolkata (CCU),IndiGo,A20N (VT-IIB),,Scheduled,"Wednesday, Jun 19",IXR,Ranchi Birsa Munda Airport,24 °C,8 kts,270 °,29 °C,8 kts,160 °,11:00 AM,11:18 AM,00:37,11:55 AM
+1:05 PM,9I743,Kolkata (CCU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",RRK,Rourkela Airport,,,,29 °C,8 kts,160 °,,,,
+3:50 PM,9I745,Bhubaneswar (BBI),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",RRK,Rourkela Airport,,,,29 °C,8 kts,190 °,1:30 PM,1:50 PM,00:56,2:25 PM
+11:40 AM,6E7678,Chennai (MAA),IndiGo,AT76 (VT-IRJ),,Scheduled,"Wednesday, Jun 19",SXV,Salem Airport,24 °C,10 kts,360 °,27 °C,10 kts,240 °,10:35 AM,10:52 AM,00:45,11:40 AM
+1:20 PM,9I513,Bengaluru (BLR),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SXV,Salem Airport,24 °C,10 kts,360 °,22 °C,10 kts,250 °,12:20 PM,1:33 PM,00:37,1:20 PM
+4:25 PM,9I515,Cochin (COK),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SXV,Salem Airport,24 °C,10 kts,360 °,25 °C,Calm,,3:15 PM,4:15 PM,00:44,4:25 PM
+10:45 AM,6E7917,Bengaluru (BLR),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",SXV,Salem Airport,24 °C,10 kts,360 °,22 °C,10 kts,250 °,9:50 AM,10:10 AM,00:34,10:45 AM
+11:40 AM,6E7678,Chennai (MAA),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",SXV,Salem Airport,24 °C,10 kts,360 °,27 °C,10 kts,240 °,10:35 AM,10:52 AM,00:45,11:40 AM
+10:45 AM,9I729,Guwahati (GAU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,27 °C,4 kts,340 °,,,,
+11:00 AM,9I783,Aizawl (AJL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,24 °C,2 kts,280 °,,,,
+12:00 PM,6E7304,Kolkata (CCU),IndiGo,AT76 (VT-IYY),,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,29 °C,8 kts,160 °,10:05 AM,10:26 AM,01:38,12:00 PM
+12:10 PM,9I755,Aizawl (AJL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,24 °C,2 kts,280 °,,,,
+1:35 PM,9I784,Dimapur (DMU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,27 °C,4 kts,260 °,,,,
+1:45 PM,9I730,Lilabari (IXI),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,,,,,,,
+2:05 PM,SG3798,Kolkata (CCU),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,29 °C,8 kts,160 °,12:30 PM,12:34 PM,—,2:05 PM
+3:15 PM,6E7956,Dibrugarh (DIB),IndiGo,AT76 (VT-IYY),,Scheduled,"Wednesday, Jun 19",SHL,Shillong Airport,23 °C,Calm,,26 °C,2 kts,Variable,,,,
+8:05 AM,9I821,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SLV,Shimla Airport,33 °C,6 kts,270 °,30 °C,6 kts,140 °,8:00 AM,8:04 AM,00:31,9:05 AM
+9:55 AM,9I822,Dharamsala (DHM),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SLV,Shimla Airport,33 °C,6 kts,270 °,40 °C,4 kts,200 °,11:00 AM,10:42 AM,00:48,12:10 PM
+10:55 AM,9I812,Amritsar (ATQ),Alliance Air,ATR,,Scheduled,"Wednesday, Jun 19",SLV,Shimla Airport,33 °C,6 kts,270 °,29 °C,10 kts,50 °,9:20 AM,—,—,10:15 AM
+7:35 AM,9I821,Delhi (DEL),Alliance Air,ATR,,Scheduled,"Wednesday, Jun 19",SLV,Shimla Airport,33 °C,6 kts,270 °,30 °C,6 kts,140 °,8:00 AM,8:04 AM,00:31,9:05 AM
+10:35 AM,9I822,Dharamsala (DHM),Alliance Air,ATR,,Scheduled,"Wednesday, Jun 19",SLV,Shimla Airport,33 °C,6 kts,270 °,40 °C,4 kts,200 °,11:00 AM,10:42 AM,00:48,12:10 PM
+11:25 AM,SG8946,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,30 °C,8 kts,140 °,11:55 AM,11:05 PM,01:34,1:50 PM
+11:30 AM,SG2131,Hyderabad (HYD),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,26 °C,13 kts,260 °,12:00 PM,12:08 PM,01:52,1:55 PM
+12:55 PM,6E7439,Indore (IDR),IndiGo,AT76 (VT-IXW),,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,24 °C,6 kts,250 °,11:25 AM,—,—,12:55 PM
+2:00 PM,6E574,Bengaluru (BLR),IndiGo,A320 (ES-SAD),,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,22 °C,12 kts,260 °,12:15 PM,12:52 PM,01:15,2:00 PM
+3:00 PM,6E6062,Hyderabad (HYD),IndiGo,A20N (VT-ITX),,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,26 °C,13 kts,260 °,1:40 PM,1:45 PM,00:53,3:00 PM
+3:45 PM,6E2616,Delhi (DEL),IndiGo,A320 (VT-IFS),,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,30 °C,8 kts,140 °,1:40 PM,1:50 PM,01:34,3:45 PM
+4:15 PM,6E7379,Vijayawada (VGA),IndiGo,AT76 (VT-IYR),,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,29 °C,Calm,,,,,
+4:20 PM,SG2138,Bengaluru (BLR),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",SAG,Shirdi Airport,25 °C,6 kts,250 °,22 °C,12 kts,260 °,4:45 PM,5:14 PM,01:08,6:10 PM
+10:50 AM,S5212,Hyderabad (HYD),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",RQY,Shivamogga Airport,,,,26 °C,13 kts,260 °,9:30 AM,11:43 AM,01:17,10:50 AM
+12:40 PM,6E7731,Bengaluru (BLR),IndiGo,AT76 (VT-IYE),,Scheduled,"Wednesday, Jun 19",RQY,Shivamogga Airport,,,,22 °C,12 kts,260 °,12:15 PM,12:37 PM,00:43,1:25 PM
+2:00 PM,S5203,Tirupati (TIR),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",RQY,Shivamogga Airport,,,,32 °C,8 kts,220 °,3:35 PM,3:28 PM,00:49,4:40 PM
+4:40 PM,S5211,Goa (GOX),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",RQY,Shivamogga Airport,,,,,,,12:40 PM,—,—,1:30 PM
+10:50 AM,S5212,Hyderabad (HYD),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",RQY,Shivamogga Airport,,,,26 °C,13 kts,260 °,9:30 AM,11:43 AM,01:17,10:50 AM
+7:05 AM,AI753,Kolkata (CCU),Air India,A20N (VT-RTF),,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,29 °C,8 kts,160 °,5:45 AM,5:45 AM,—,7:05 AM
+8:35 AM,9I731,Kolkata (CCU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,29 °C,8 kts,160 °,5:34 AM,5:34 AM,00:45,11:49 AM
+9:00 AM,9I741,Kolkata (CCU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,29 °C,8 kts,160 °,,,,
+1:25 PM,6E2513,Kolkata (CCU),IndiGo,A20N (VT-IVX),,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,29 °C,8 kts,160 °,12:10 PM,12:16 PM,—,1:25 PM
+1:40 PM,9I732,Imphal (IMF),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,24 °C,Calm,,—,—,—,—
+1:45 PM,6E262,Guwahati (GAU),IndiGo,A20N (VT-IQX),,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,27 °C,4 kts,340 °,12:55 PM,1:01 PM,—,1:45 PM
+2:00 PM,9I742,Imphal (IMF),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,24 °C,Calm,,,,,
+7:05 AM,AI753,Kolkata (CCU),Air India,32N,,Scheduled,"Wednesday, Jun 19",IXS,Silchar Airport,24 °C,2 kts,Variable,29 °C,8 kts,160 °,5:45 AM,5:45 AM,—,7:05 AM
+7:45 AM,I5582,Kolkata (CCU),AIX Connect,A320 (VT-JPR),,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,29 °C,8 kts,160 °,6:35 AM,6:34 AM,00:51,7:45 AM
+7:55 AM,SG505,Mumbai (BOM),SpiceJet,7M8,,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,26 °C,4 kts,180 °,,,,
+8:05 AM,I51780,Bengaluru (BLR),AIX Connect,A320 (VT-KTM),,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,22 °C,12 kts,260 °,5:05 AM,5:15 AM,02:24,8:05 AM
+8:10 AM,SG3445,Kolkata (CCU),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,29 °C,8 kts,160 °,6:50 AM,6:47 AM,00:58,8:10 AM
+9:00 AM,6E6785,Kolkata (CCU),IndiGo,A20N (VT-IVE),,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,29 °C,8 kts,160 °,7:50 AM,7:57 AM,00:50,9:00 AM
+9:25 AM,I5634,Kolkata (CCU),AIX Connect (The Pioneer Livery),A320 (VT-JRT),,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,29 °C,8 kts,160 °,8:05 AM,8:07 AM,00:48,9:25 AM
+9:35 AM,6E5317,Delhi (DEL),IndiGo,A20N (VT-ISL),,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,30 °C,8 kts,140 °,7:30 AM,7:35 AM,01:34,9:35 AM
+10:00 AM,UK725,Delhi (DEL),Vistara,320,,Scheduled,"Wednesday, Jun 19",IXB,Siliguri Bagdogra Airport,24 °C,4 kts,50 °,30 °C,8 kts,140 °,10:35 AM,10:38 AM,01:03,12:00 PM
+12:50 PM,9I661,Mumbai (BOM),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",SDW,Sindhudurg Airport,30 °C,6 kts,170 °,26 °C,4 kts,180 °,,,,
+11:45 AM,IC5504,Hyderabad (HYD),Fly91,AT7,,Scheduled,"Wednesday, Jun 19",SDW,Sindhudurg Airport,30 °C,6 kts,170 °,26 °C,13 kts,260 °,9:50 AM,—,—,11:45 AM
+6:55 AM,6E2607,Delhi (DEL),IndiGo,A21N (VT-IBH),,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,30 °C,8 kts,140 °,5:30 AM,5:37 AM,01:00,6:55 AM
+7:10 AM,IX1995,Delhi (DEL),Air India Express,7M8,,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,30 °C,8 kts,140 °,5:30 AM,6:18 AM,01:19,7:10 AM
+7:40 AM,SG8473,Delhi (DEL),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,30 °C,8 kts,140 °,6:05 AM,6:12 AM,01:08,7:40 AM
+7:55 AM,I59905,Delhi (DEL),AIX Connect,A320 (VT-VTZ),,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,30 °C,8 kts,140 °,6:40 AM,6:44 AM,01:12,7:55 AM
+8:15 AM,SG944,Mumbai (BOM),SpiceJet,737,,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,26 °C,4 kts,180 °,5:50 AM,6:27 AM,02:13,8:15 AM
+8:25 AM,QP1637,Mumbai (BOM),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,26 °C,4 kts,180 °,5:35 AM,5:32 AM,02:21,8:25 AM
+8:45 AM,AI827,Delhi (DEL),Air India,A20N (VT-RTS),,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,30 °C,8 kts,140 °,,,,
+9:05 AM,6E6945,Ahmedabad (AMD),IndiGo,A20N (VT-IIS),,Scheduled,"Wednesday, Jun 19",SXR,Srinagar Airport,16 °C,2 kts,Variable,30 °C,10 kts,180 °,6:55 AM,7:03 AM,01:54,9:05 AM
+8:00 AM,6E2272,Delhi (DEL),IndiGo,A20N (VT-IVA),,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,30 °C,8 kts,140 °,6:20 AM,6:31 AM,01:25,8:00 AM
+8:05 AM,I5588,Kolkata (CCU),AIX Connect,A320 (VT-NAG),,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,29 °C,8 kts,160 °,—,—,—,—
+8:15 AM,6E928,Hyderabad (HYD),IndiGo,A20N (VT-IPQ),,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,26 °C,13 kts,260 °,6:50 AM,6:54 AM,01:12,8:15 AM
+10:35 AM,6E6797,Chennai (MAA),IndiGo,A20N (VT-IIX),,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,27 °C,8 kts,260 °,8:20 AM,8:17 AM,01:37,10:15 AM
+12:00 PM,IX1597,Delhi (DEL),Air India Express,B38M (VT-BXF),,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,30 °C,8 kts,140 °,10:00 AM,10:50 AM,01:26,12:00 PM
+12:50 PM,S5144,Kishangarh (KQH),Star Air,ER4,,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,,,,,,,
+1:35 PM,IX1173,Hyderabad (HYD),Air India Express,B38M (VT-BXR),,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,26 °C,13 kts,260 °,,,,
+2:00 PM,6E6191,Pune (PNQ),IndiGo,A20N (VT-IIX),,Scheduled,"Wednesday, Jun 19",STV,Surat International Airport,29 °C,12 kts,200 °,26 °C,8 kts,250 °,,,,
+12:35 PM,SG3779,Kolkata (CCU),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",TEZ,Tezpur Airport,25 °C,2 kts,Variable,29 °C,8 kts,160 °,11:05 AM,11:03 AM,01:20,12:35 PM
+10:45 AM,9I757,Guwahati (GAU),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",TEZ,Tezpur Airport,25 °C,2 kts,Variable,27 °C,4 kts,340 °,11:10 AM,11:37 AM,00:35,12:00 PM
+2:35 PM,9I405,Dibrugarh (DIB),Alliance Air,D28,,Scheduled,"Wednesday, Jun 19",TEI,Tezu Airport,,,,26 °C,2 kts,Variable,,,,
+11:40 PM,UK523,Bengaluru (BLR),Vistara,A20N (VT-TYG),,Landed 11:32 PM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,22 °C,12 kts,260 °,10:30 PM,10:36 PM,00:56,11:40 PM
+11:45 PM,6E6171,Delhi (DEL),IndiGo,A20N (VT-IZV),,Landed 11:38 PM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,30 °C,8 kts,140 °,8:25 PM,8:35 PM,03:03,11:45 PM
+11:50 PM,AK9,Kuala Lumpur (KUL),AirAsia (Universiti Teknologi Malaysia Livery),A320 (9M-AJE),,Landed 11:50 PM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,22 °C,2 kts,Variable,10:30 PM,10:58 PM,03:21,11:50 PM
+12:45 AM,AI829,Delhi (DEL),Air India,A320 (VT-EXC),,Estimated 12:39 AM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,30 °C,8 kts,140 °,9:25 PM,9:47 PM,02:58,12:45 AM
+1:25 AM,6E5301,Mumbai (BOM),IndiGo,A20N (VT-IQA),,Estimated 1:16 AM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,26 °C,4 kts,180 °,11:15 PM,11:28 PM,01:48,1:25 AM
+2:20 AM,QR506,Doha (DOH),Qatar Airways,A320 (A7-AHI),,Estimated 2:18 AM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,35 °C,6 kts,230 °,7:10 PM,7:38 PM,04:14,2:20 AM
+2:35 AM,IX542,Dubai (DXB),Air India Express (Konark Sun Temple-Taj Mahal),B738 (VT-GHF),,Estimated 2:30 AM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,34 °C,6 kts,190 °,8:45 PM,9:03 PM,04:02,2:35 AM
+3:10 AM,EK522,Dubai (DXB),Emirates,B77W (A6-EQC),,Estimated 3:11 AM,"Wednesday, Jun 19",TRV,Trivandrum International Airport,26 °C,Calm,,34 °C,6 kts,190 °,9:25 PM,10:03 PM,03:45,3:10 AM
+11:45 PM,AK29,Kuala Lumpur (KUL),AirAsia,A20N (9M-AGG),,Landed 11:48 PM,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,22 °C,2 kts,Variable,10:30 PM,11:00 PM,03:17,11:45 PM
+2:35 AM,IX681,Singapore (SIN),Air India Express (Harmandir Sahib-Jumping Man),B738 (VT-GHI),,Estimated 2:09 AM,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,28 °C,4 kts,300 °,12:40 AM,1:09 AM,03:44,2:35 AM
+4:05 AM,IX614,Sharjah (SHJ),Air India Express (Ellora-Ajanta Caves Livery),B738 (VT-AYA),,Scheduled,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,34 °C,8 kts,170 °,10:05 PM,10:26 PM,04:02,4:05 AM
+5:35 AM,IX796,Mangalore (IXE),Air India Express,73H,,Scheduled,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,24 °C,4 kts,120 °,7:25 PM,8:29 PM,05:20,3:45 AM
+6:40 AM,6E1008,Singapore (SIN),IndiGo,A320 (VT-IAQ),,Scheduled,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,27 °C,2 kts,Variable,4:55 AM,5:28 AM,—,6:40 AM
+7:00 AM,6E7298,Chennai (MAA),IndiGo,AT76 (VT-IRD),,Scheduled,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,26 °C,8 kts,270 °,5:45 AM,6:12 AM,00:51,7:00 AM
+7:20 AM,6E7236,Bengaluru (BLR),IndiGo,AT76 (VT-IYQ),,Scheduled,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,22 °C,10 kts,260 °,6:05 AM,6:31 AM,00:51,7:20 AM
+10:40 AM,6E7191,Chennai (MAA),IndiGo,AT76 (VT-IYK),,Scheduled,"Wednesday, Jun 19",TRZ,Tiruchirappalli International Airport,27 °C,4 kts,200 °,26 °C,8 kts,270 °,9:40 AM,9:52 AM,—,10:40 AM
+7:35 AM,SG2696,Hyderabad (HYD),SpiceJet,DH8,,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,25 °C,13 kts,270 °,6:20 AM,6:41 AM,00:57,7:35 AM
+7:45 AM,6E7047,Hyderabad (HYD),IndiGo,AT76 (VT-IYU),,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,25 °C,13 kts,270 °,6:30 AM,6:46 AM,01:03,7:45 AM
+8:10 AM,9I877,Hyderabad (HYD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,25 °C,13 kts,270 °,6:45 AM,—,—,8:10 AM
+8:40 AM,6E7532,Hyderabad (HYD),IndiGo,AT76 (VT-IRE),,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,25 °C,13 kts,270 °,7:10 AM,7:16 AM,01:01,8:40 AM
+12:00 PM,6E7548,Hyderabad (HYD),IndiGo,AT76 (VT-IYR),,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,25 °C,13 kts,270 °,10:40 AM,11:00 AM,01:05,12:00 PM
+12:10 PM,6E7063,Visakhapatnam (VTZ),IndiGo,AT76 (VT-IRF),,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,29 °C,6 kts,240 °,10:30 AM,10:20 AM,01:25,12:10 PM
+12:30 PM,6E2005,Hyderabad (HYD),IndiGo,A21N (VT-ILP),,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,25 °C,13 kts,270 °,11:25 AM,11:31 AM,00:49,12:30 PM
+12:30 PM,S5202,Shivamogga (RQY),Star Air,ERJ,,Scheduled,"Wednesday, Jun 19",TIR,Tirupati Airport,32 °C,8 kts,220 °,,,,2:00 PM,1:54 PM,00:47,3:05 PM
+7:35 AM,6E7193,Chennai (MAA),IndiGo,AT76 (VT-IYW),,Scheduled,"Wednesday, Jun 19",TCR,Tuticorin Airport,,,,26 °C,8 kts,270 °,5:45 AM,5:49 AM,—,7:35 AM
+12:00 PM,6E7339,Chennai (MAA),IndiGo,AT76 (VT-IRG),,Scheduled,"Wednesday, Jun 19",TCR,Tuticorin Airport,,,,26 °C,8 kts,270 °,10:15 AM,10:29 AM,01:21,12:00 PM
+2:35 PM,6E7605,Chennai (MAA),IndiGo,AT76 (VT-IYK),,Scheduled,"Wednesday, Jun 19",TCR,Tuticorin Airport,,,,26 °C,8 kts,270 °,1:10 PM,1:13 PM,—,2:35 PM
+3:35 PM,6E7496,Bengaluru (BLR),IndiGo,AT76 (VT-IRF),,Scheduled,"Wednesday, Jun 19",TCR,Tuticorin Airport,,,,22 °C,10 kts,260 °,1:55 PM,2:52 PM,—,3:35 PM
+4:05 PM,6E7179,Chennai (MAA),IndiGo,AT76 (VT-IRM),,Scheduled,"Wednesday, Jun 19",TCR,Tuticorin Airport,,,,26 °C,8 kts,270 °,2:20 PM,4:48 PM,01:26,4:05 PM
+7:35 AM,6E7193,Chennai (MAA),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",TCR,Tuticorin Airport,,,,26 °C,8 kts,270 °,5:45 AM,5:49 AM,—,7:35 AM
+11:25 AM,6E7735,Bengaluru (BLR),IndiGo,AT7,,Scheduled,"Wednesday, Jun 19",TCR,Tuticorin Airport,,,,22 °C,10 kts,260 °,9:40 AM,10:04 AM,—,11:25 AM
+7:25 AM,6E7465,Jaipur (JAI),IndiGo,AT76 (VT-IXV),,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,33 °C,4 kts,300 °,6:20 AM,6:13 AM,00:51,7:25 AM
+7:45 AM,6E5038,Mumbai (BOM),IndiGo,A21N (VT-IBU),,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,26 °C,4 kts,140 °,6:25 AM,6:30 AM,01:02,7:45 AM
+9:00 AM,6E687,Bengaluru (BLR),SmartLynx,A320 (YL-LDX),,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,22 °C,10 kts,260 °,7:05 AM,7:09 AM,01:52,9:00 AM
+11:00 AM,9I695,Delhi (DEL),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,30 °C,6 kts,140 °,,,,
+11:10 AM,UK623,Mumbai (BOM),Vistara,320,,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,26 °C,4 kts,140 °,9:40 AM,10:01 AM,01:06,11:10 AM
+11:20 AM,6E2644,Delhi (DEL),IndiGo,A20N (VT-IQP),,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,30 °C,6 kts,140 °,9:55 AM,10:24 AM,00:57,11:20 AM
+1:20 PM,UK633,Bengaluru (BLR),Vistara,320,,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,22 °C,10 kts,260 °,11:00 AM,11:46 AM,01:52,1:20 PM
+2:05 PM,9I696,Ahmedabad (AMD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",UDR,Udaipur Maharana Pratap Airport,33 °C,8 kts,220 °,30 °C,8 kts,190 °,,,,
+9:15 AM,I7101,Bhubaneswar (BBI),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",UKE,Utkela Airport,,,,29 °C,8 kts,210 °,12:25 PM,—,—,1:35 PM
+1:35 PM,I7101,Bhubaneswar (BBI),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",UKE,Utkela Airport,,,,29 °C,8 kts,210 °,12:25 PM,—,—,1:35 PM
+4:20 PM,I7202,Raipur (RPR),IndiaOne Air,CNF,,Scheduled,"Wednesday, Jun 19",UKE,Utkela Airport,,,,,,,3:20 PM,—,—,4:20 PM
+6:30 AM,AI669,Mumbai (BOM),Air India,A20N (VT-CIG),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,26 °C,4 kts,140 °,5:15 AM,5:23 AM,00:58,6:30 AM
+6:40 AM,6E5273,Mumbai (BOM),IndiGo,A20N (VT-IIV),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,26 °C,4 kts,140 °,5:25 AM,5:25 AM,01:04,6:40 AM
+6:50 AM,AI823,Delhi (DEL),Air India,A319 (VT-SCF),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,30 °C,6 kts,140 °,4:50 AM,4:51 AM,01:22,6:50 AM
+7:30 AM,6E2412,Delhi (DEL),IndiGo,A21N (VT-IMI),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,30 °C,6 kts,140 °,6:05 AM,6:09 AM,01:12,7:30 AM
+3:55 PM,6E6481,Hyderabad (HYD),IndiGo,A20N (VT-IPH),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,25 °C,13 kts,270 °,2:20 PM,2:28 PM,01:19,3:55 PM
+5:50 PM,6E807,Bengaluru (BLR),IndiGo,A320 (YL-LDT),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,22 °C,10 kts,260 °,3:50 PM,4:05 PM,01:40,5:50 PM
+8:05 PM,6E2637,Delhi (DEL),IndiGo,A20N (VT-IZO),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,30 °C,6 kts,140 °,6:20 PM,7:30 PM,01:11,8:05 PM
+8:20 PM,AI819,Delhi (DEL),Air India,A321 (VT-PPI),,Scheduled,"Wednesday, Jun 19",BDQ,Vadodara Airport,31 °C,12 kts,190 °,30 °C,6 kts,140 °,6:35 PM,7:57 PM,01:11,8:20 PM
+1:40 AM,6E672,Pune (PNQ),IndiGo,A20N (VT-IPG),,Estimated 1:33 AM,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,26 °C,8 kts,250 °,11:35 PM,11:49 PM,01:44,1:40 AM
+6:25 AM,6E2211,Delhi (DEL),IndiGo,A320 (9H-SLH),,Scheduled,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,30 °C,6 kts,140 °,5:00 AM,5:18 AM,01:03,6:25 AM
+7:00 AM,IX1170,Hyderabad (HYD),Air India Express,B38M (VT-BXR),,Scheduled,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,25 °C,13 kts,270 °,5:10 AM,5:15 AM,01:41,7:00 AM
+7:40 AM,IX1642,Bengaluru (BLR),Air India Express,B38M (VT-BXK),,Scheduled,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,22 °C,10 kts,260 °,5:10 AM,7:14 AM,02:12,7:40 AM
+9:15 AM,QP1421,Bengaluru (BLR),Akasa Air,7M8,,Scheduled,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,22 °C,10 kts,260 °,6:45 AM,6:58 AM,02:09,9:15 AM
+9:25 AM,6E822,Kolkata (CCU),IndiGo,A20N (VT-IVX),,Scheduled,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,29 °C,10 kts,160 °,7:55 AM,8:02 AM,01:11,9:25 AM
+10:00 AM,6E2411,Delhi (DEL),IndiGo,A21N (VT-ILR),,Scheduled,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,30 °C,6 kts,140 °,8:35 AM,—,—,10:00 AM
+10:10 AM,6E6543,Mumbai (BOM),IndiGo,A21N (VT-IUK),,Scheduled,"Wednesday, Jun 19",VNS,Varanasi International Airport,36 °C,6 kts,220 °,26 °C,4 kts,140 °,7:50 AM,8:17 AM,01:48,10:10 AM
+12:00 PM,9I869,Hyderabad (HYD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",VDY,Vidyanagar Jindal Airport,,,,25 °C,13 kts,270 °,10:40 AM,—,—,12:00 PM
+3:45 PM,9I527,Bengaluru (BLR),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",VDY,Vidyanagar Jindal Airport,,,,22 °C,10 kts,260 °,4:10 PM,4:00 PM,00:43,5:15 PM
+4:50 PM,9I527,Bengaluru (BLR),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",VDY,Vidyanagar Jindal Airport,,,,22 °C,10 kts,260 °,4:10 PM,4:00 PM,00:43,5:15 PM
+7:10 AM,6E7201,Hyderabad (HYD),IndiGo,AT76 (VT-IYP),,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,25 °C,13 kts,270 °,6:10 AM,6:26 AM,00:40,7:10 AM
+7:30 AM,6E7204,Bengaluru (BLR),IndiGo,AT76 (VT-IYE),,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,22 °C,10 kts,260 °,5:55 AM,6:14 AM,01:11,7:30 AM
+8:05 AM,6E7084,Chennai (MAA),IndiGo,AT76 (VT-IRF),,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,26 °C,8 kts,270 °,6:25 AM,6:30 AM,01:02,7:50 AM
+8:25 AM,AI459,Delhi (DEL),Air India,A21N (VT-RTD),,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,30 °C,6 kts,140 °,5:55 AM,6:14 AM,01:59,8:25 AM
+9:20 AM,9I888,Hyderabad (HYD),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,25 °C,13 kts,270 °,,,,
+9:40 AM,9I501,Bengaluru (BLR),Alliance Air,AT7,,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,22 °C,10 kts,260 °,7:50 AM,7:55 AM,01:14,9:40 AM
+10:10 AM,6E7208,Hyderabad (HYD),IndiGo,AT76 (VT-IYP),,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,25 °C,13 kts,270 °,9:05 AM,9:20 AM,00:42,10:10 AM
+11:10 AM,6E7211,Hyderabad (HYD),IndiGo,AT76 (VT-IYU),,Scheduled,"Wednesday, Jun 19",VGA,Vijayawada Airport,29 °C,Calm,,25 °C,13 kts,270 °,10:05 AM,10:31 AM,00:48,11:10 AM
+7:00 AM,6E6408,Hyderabad (HYD),IndiGo,A320 (VT-IKK),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,25 °C,13 kts,270 °,5:50 AM,5:52 AM,00:57,7:00 AM
+7:05 AM,6E217,Bengaluru (BLR),SmartLynx,A320 (YL-LDF),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,22 °C,10 kts,260 °,5:40 AM,5:41 AM,01:18,7:05 AM
+7:40 AM,AI485,Delhi (DEL),Air India,A20N (VT-EXS),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,30 °C,6 kts,140 °,,,,
+7:55 AM,I51528,Bengaluru (BLR),AIX Connect,A320 (VT-MLE),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,22 °C,10 kts,260 °,8:30 AM,8:44 AM,00:55,9:45 AM
+8:05 AM,6E557,Chennai (MAA),IndiGo,A320 (VT-IFH),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,26 °C,8 kts,270 °,,,,
+8:20 AM,6E6086,Delhi (DEL),IndiGo,A20N (VT-IZK),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,30 °C,6 kts,140 °,6:10 AM,6:08 AM,01:52,8:20 AM
+10:00 AM,6E7128,Vijayawada (VGA),IndiGo,AT76 (VT-IRF),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,29 °C,Calm,,8:10 AM,8:15 AM,00:50,9:10 AM
+11:25 AM,I51529,Hyderabad (HYD),AIX Connect,A320 (VT-MLE),,Scheduled,"Wednesday, Jun 19",VTZ,Visakhapatnam Airport,30 °C,8 kts,310 °,25 °C,12 kts,260 °,11:55 AM,12:26 PM,01:12,1:35 PM
