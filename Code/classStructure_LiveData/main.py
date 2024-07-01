@@ -3,6 +3,7 @@ from calcDelay import Delay
 from dataSplitter import dataSplitter
 from nullvalueHandler import nullvalueHandler
 import numpy as np
+from outlierHandler import outlierHandler
 def main():
     # Load data
     file_path = r'..\..\Data\liveData.xlsx'
@@ -55,8 +56,36 @@ def main():
     print(X_train_cleaned)
     print("Y_train after filling null values with median:")
     print(y_train_cleaned)
-    print("Sum of null values in X_train after handling:", np.sum(X_train.isnull().values))
-    print("Sum of null values in y_train after handling:", np.sum(y_train.isnull().sum()))
+    print("Sum of null values in X_train after handling:", np.sum(X_train_cleaned.isnull().values))
+    print("Sum of null values in y_train after handling:", np.sum(y_train_cleaned.isnull().values))
+    print("\n\n\n Outlier Handling...\n\n\n")
+    print("\n\n\n_____________________________________\n\n\n")
+    X_train_cleaned.reset_index(drop=True, inplace=True)
+    y_train_cleaned.reset_index(drop=True, inplace=True)
+
+    # Create an instance of OutlierHandler
+    outlier_handler = outlierHandler(X_train_cleaned)
+
+    # Display outliers in X_train
+    outlier_handler.display_outliers()
+
+    # Display outliers in y_train
+    outlier_handler.display_outliers_y(y_train_cleaned)
+
+    # Remove outliers from X_train
+    X_train_outliersRemoved = outlier_handler.remove_outliers()
+
+    # Get the index of cleaned rows
+    cleaned_indices = X_train_cleaned.index
+
+
+    # Remove corresponding rows from y_train
+    y_train_outliersRemoved = y_train_cleaned.iloc[cleaned_indices]
+    #y_train_cleaned = y_train.iloc[cleaned_indices]
+
+    # Check the shape of cleaned datasets
+    print("Shape of X_train after removing outliers:", X_train_outliersRemoved.shape)
+    print("Shape of y_train after removing outliers:", y_train_outliersRemoved.shape)
 
 if __name__ == "__main__":
     main()

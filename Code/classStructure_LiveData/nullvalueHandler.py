@@ -22,5 +22,6 @@ class nullvalueHandler:
 
     def clean_target(self, y_train):
         median_value = y_train.median()
-        y_train = y_train.fillna(median_value)
-        return y_train
+        print("y_train median_value:",median_value)
+        y_train_cleaned = y_train.fillna(median_value)
+        return y_train_cleaned
