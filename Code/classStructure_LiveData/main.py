@@ -4,6 +4,9 @@ from dataSplitter import dataSplitter
 from nullvalueHandler import nullvalueHandler
 import numpy as np
 from outlierHandler import outlierHandler
+from  columnDropper import columnDropper
+from datetimeProcessor import datetimeProcessor
+from numCorrMatrix import numericalMatrix
 def main():
     # Load data
     file_path = r'..\..\Data\liveData.xlsx'
@@ -76,16 +79,53 @@ def main():
     X_train_outliersRemoved = outlier_handler.remove_outliers()
 
     # Get the index of cleaned rows
-    cleaned_indices = X_train_cleaned.index
+    cleaned_indices = X_train_outliersRemoved.index
 
 
     # Remove corresponding rows from y_train
     y_train_outliersRemoved = y_train_cleaned.iloc[cleaned_indices]
-    #y_train_cleaned = y_train.iloc[cleaned_indices]
+    print("Shape of X_train:", X_train_outliersRemoved.shape)
+    print("Shape of y_train:", y_train_outliersRemoved.shape)
+    print("Shape of X_test:", X_test.shape)
+    print("Shape of y_test:", y_test.shape)
 
-    # Check the shape of cleaned datasets
-    print("Shape of X_train after removing outliers:", X_train_outliersRemoved.shape)
-    print("Shape of y_train after removing outliers:", y_train_outliersRemoved.shape)
+    print("\n\n column Dropping \n\n")
+    print("\n\n\n_____________________________________\n\n\n")
+
+    columns_to_drop = ['FLIGHT', 'AIRCRAFT', 'STATUS', 'ARRIVAL_AIRPORT_NAME', 'ARRIVAL_AIRPORT_CODE']
+    cleaner = columnDropper(columns_to_drop)
+
+    # Clean the data
+    X_train_cleaned1= cleaner.drop_columns(X_train_cleaned)
+    X_test1 = cleaner.drop_columns(X_test)
+
+    print(X_train_cleaned1)
+    print(X_test1)
+    print("\n\nDate Time processor\n\n")
+    print("\n\n\n_____________________________________\n\n\n")
+    columns_to_drop = ['TIME', 'DATE']
+
+    # Process the dataframes
+    dateProcessor = datetimeProcessor()
+    X_train_cleaned2 = dateProcessor.process_dataframe(X_train_cleaned1, time_column='TIME', date_column='DATE',
+                                                  columns_to_drop=columns_to_drop)
+    X_test_cleaned2 = dateProcessor.process_dataframe(X_test1, time_column='TIME', date_column='DATE',
+                                                 columns_to_drop=columns_to_drop)
+
+    print(X_train_cleaned2)
+    print(X_test_cleaned2)
+
+    print("\n\n Correlation Matrix with numerical values only\n\n")
+    print("\n\n________________________________________________\n\n")
+    numCorr = numericalMatrix(X_train_cleaned2, X_test_cleaned2)
+    numCorr.find_numerical_features()
+    numCorr.plot_correlation_matrix()
+    high_corr_pairs = numCorr.find_highly_correlated_pairs()
+    if high_corr_pairs:
+        correlated_features = [pair[0] for pair in high_corr_pairs]
+        numCorr.drop_highly_correlated_features(correlated_features)
+
+
 
 if __name__ == "__main__":
     main()
