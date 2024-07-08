@@ -4,7 +4,7 @@ import datetime
 import pandas as pd
 from datetime import datetime, timedelta
 
-df= pd.read_excel('/content/Scraped_data_final1.xlsx')
+df= pd.read_excel(r'Data/Scraped_data_final1.xlsx')
 
 df.drop(columns=['Unnamed: 5'], inplace=True)
 
@@ -204,7 +204,7 @@ categorical_features = ['FROM','AIRLINE']
 from sklearn.preprocessing import OneHotEncoder
 
 # Step 1: Initialize the OneHotEncoder with handle_unknown='ignore'
-encoder = OneHotEncoder(sparse=False, drop='first', dtype=int, handle_unknown='ignore')
+encoder = OneHotEncoder(drop='first', dtype=int, handle_unknown='ignore')
 
 # Step 2: Fit the encoder on the training data
 encoder.fit(X_train_cleaned[categorical_features])

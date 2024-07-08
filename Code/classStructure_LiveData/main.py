@@ -48,6 +48,7 @@ def main():
     features_with_null = ['WEATHER_ARRIVAL', 'WIND_ARRIVAL', 'WEATHER_DEPARTURE', 'DIRECTION_ARRIVAL',
                           'WIND_DEPARTURE', 'Scheduled_departures', 'Actual_departures', 'DIRECTION_DEPARTURE',
                           'Scheduled_arrival', 'Actual_arrival']
+    
 
     # Initialize the DataProcessor instance
     nullHandler = nullvalueHandler()
@@ -99,9 +100,9 @@ def main():
     model = Model()
 
     X_train_cleaned = X_train_cleaned.select_dtypes(exclude=['object'])
+    print(X_train_cleaned.keys())
 
     #===================================== Pickle Models =============================
-
     pickle = Pickle()
     #Linear Regression
     try :

@@ -15,6 +15,17 @@ class Model:
 
 
     def train_linear_regression(self, x_train : pd.DataFrame, y_train : pd.Series):
+        """
+        Train a linear regression model on the given training data.
+        
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        
+        Returns:
+        - The trained LinearRegression model.
+        """
+         
         model = LinearRegression()
         model.fit(x_train, y_train)
         y_train_pred = model.predict(x_train)
@@ -27,6 +38,17 @@ class Model:
 
 
     def train_lasso(self, x_train : pd.DataFrame, y_train : pd.Series, alpha : float):
+        """
+        Train a Lasso Regularization model on the given training data.
+        
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - alpha: Regularization parameter
+        
+        Returns:
+        - The trained Lasso Regularization model.
+        """
         model = Lasso(alpha = alpha)
         model.fit(x_train, y_train)
         y_train_pred = model.predict(x_train)
@@ -39,6 +61,17 @@ class Model:
 
 
     def train_ridge(self, x_train : pd.DataFrame, y_train : pd.Series, alpha : float):
+        """
+        Train a Ridge Regularization model on the given training data.
+        
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - alpha: Regularization parameter
+        
+        Returns:
+        - The trained Ridge Regularization model.
+        """
         model = Ridge(alpha=alpha)
         model.fit(x_train, y_train)
         y_train_pred = model.predict(x_train)
@@ -60,6 +93,32 @@ class Model:
             min_samples_leaf=min_samples_leaf,
             max_features=max_features
         )
+        """
+        Train a decision tree model on the given training data.
+        
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - classification: Boolean indicating if the task is classification (default: False).
+        - max_depth: The maximum depth of the tree (default: None).
+        - min_sample_split: The minimum number of samples required to split an internal node (default: 2).
+        - min_samples_leaf: The minimum number of samples required to be at a leaf node (default: 1).
+        - max_features: The number of features to consider when looking for the best split (default: None).
+        
+        Returns:
+        - If classification is True:
+            - model: The trained DecisionTreeClassifier.
+            - accuracy_train: Accuracy score on the training data.
+            - precision_train: Precision score on the training data.
+            - confusion_mat: Confusion matrix on the training data.
+            - classification_rpt: Classification report on the training data.
+        - If classification is False:
+            - model: The trained DecisionTreeRegressor.
+            - mae: Mean absolute error on the training data.
+            - mse: Mean squared error on the training data.
+            - rmse: Root mean squared error on the training data.
+            - r2: R-squared score on the training data.
+        """
         model.fit(x_train, y_train)
         y_train_pred = model.predict(x_train)
 
@@ -94,6 +153,33 @@ class Model:
                                          max_depth = None, min_sample_split: float|int = 2, 
                                          min_samples_leaf: float|int  = 1, max_features = None):
 
+        """
+        Train a random forest model on the given training data.
+        
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - classification: Boolean indicating if the task is classification (default: False).
+        - n_estimators: The number of trees in the forest (default: 100).
+        - max_depth: The maximum depth of the tree (default: None).
+        - min_sample_split: The minimum number of samples required to split an internal node (default: 2).
+        - min_samples_leaf: The minimum number of samples required to be at a leaf node (default: 1).
+        - max_features: The number of features to consider when looking for the best split (default: None).
+        
+        Returns:
+        - If classification is True:
+            - model: The trained RandomForestClassifier.
+            - accuracy_train: Accuracy score on the training data.
+            - precision_train: Precision score on the training data.
+            - confusion_mat: Confusion matrix on the training data.
+            - classification_rpt: Classification report on the training data.
+        - If classification is False:
+            - model: The trained RandomForestRegressor.
+            - mae: Mean absolute error on the training data.
+            - mse: Mean squared error on the training data.
+            - rmse: Root mean squared error on the training data.
+            - r2: R-squared score on the training data.
+        """
         print('********** Random Forest **********')
         if(classification):
             model = RandomForestClassifier(
@@ -141,6 +227,32 @@ class Model:
     def train_xgboost(self, x_train: pd.DataFrame, y_train: pd.Series, classification=False,
                       n_estimators: int = 100, max_depth = None, learning_rate: float = 0.1,
                       subsample: float = 1.0):
+        """
+        Train an XGBoost model on the given training data.
+        
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - classification: Boolean indicating if the task is classification (default: False).
+        - n_estimators: The number of boosting rounds (trees) to run (default: 100).
+        - max_depth: Maximum depth of the decision trees (default: None).
+        - learning_rate: Boosting learning rate (default: 0.1).
+        - subsample: Fraction of samples to be used for training each tree (default: 1.0).
+        
+        Returns:
+        - If classification is True:
+            - model: The trained XGBClassifier.
+            - accuracy_train: Accuracy score on the training data.
+            - precision_train: Precision score on the training data.
+            - confusion_mat: Confusion matrix on the training data.
+            - classification_rpt: Classification report on the training data.
+        - If classification is False:
+            - model: The trained XGBRegressor.
+            - mae: Mean absolute error on the training data.
+            - mse: Mean squared error on the training data.
+            - rmse: Root mean squared error on the training data.
+            - r2: R-squared score on the training data.
+        """
         
         if classification:
             model = xgb.XGBClassifier(
@@ -194,6 +306,31 @@ class Model:
             learning_rate=learning_rate,
             max_depth=max_depth
         )
+        """
+        Train a Gradient Boosting Classifier or Regressor based on the classification flag.
+
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - classification: Boolean indicating if the task is classification (default: False).
+        - n_estimators: The number of boosting stages to be run (default: 100).
+        - learning_rate: Boosting learning rate (default: 0.1).
+        - max_depth: Maximum depth of the individual estimators (default: 3).
+
+        Returns:
+        - If classification is True:
+            - model: The trained GradientBoostingClassifier.
+            - accuracy_train: Accuracy score on the training data.
+            - precision_train: Weighted precision score on the training data.
+            - confusion_mat: Confusion matrix on the training data.
+            - classification_rpt: Classification report on the training data.
+        - If classification is False:
+            - model: The trained GradientBoostingRegressor.
+            - mae: Mean absolute error on the training data.
+            - mse: Mean squared error on the training data.
+            - rmse: Root mean squared error on the training data.
+            - r2: R-squared score on the training data.
+        """
         model.fit(x_train, y_train)
         y_train_pred = model.predict(x_train)
 
@@ -226,6 +363,30 @@ class Model:
 
     def train_svm_classification(self, x_train: pd.DataFrame, y_train: pd.Series, classification=False,
                                  kernel='rbf', C=1.0):
+        """
+        Train a Support Vector Machine Classifier or Regressor based on the classification flag.
+
+        Parameters:
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - classification: Boolean indicating if the task is classification (default: False).
+        - kernel: Specifies the kernel type to be used in the algorithm (default: 'rbf').
+        - C: Penalty parameter of the error term (default: 1.0).
+
+        Returns:
+        - If classification is True:
+            - model: The trained SVC with specified kernel.
+            - accuracy_train: Accuracy score on the training data.
+            - precision_train: Weighted precision score on the training data.
+            - confusion_mat: Confusion matrix on the training data.
+            - classification_rpt: Classification report on the training data.
+        - If classification is False:
+            - model: The trained SVR with specified kernel.
+            - mae: Mean absolute error on the training data.
+            - mse: Mean squared error on the training data.
+            - rmse: Root mean squared error on the training data.
+            - r2: R-squared score on the training data.
+        """
         model = SVC(kernel=kernel, C=C)
         model.fit(x_train, y_train)
         y_train_pred = model.predict(x_train)
@@ -257,6 +418,31 @@ class Model:
     
     
     def train_predefined_model(self, model : any, x_train : pd.DataFrame, y_train: pd.Series, classification=False):
+        """
+        Train a predefined machine learning model on the given training data.
+
+        Parameters:
+        - model: Predefined machine learning model to be trained.
+        - x_train: Training data features (pd.DataFrame).
+        - y_train: Training data labels (pd.Series).
+        - classification: Boolean indicating if the task is classification (default: False).
+
+        Returns:
+        - If classification is True:
+            - model: The trained model.
+            - evaluation_metrics: Dictionary containing evaluation metrics.
+                - accuracy_train: Accuracy score on the training data.
+                - precision_train: Precision score on the training data.
+                - confusion_matrix: Confusion matrix on the training data.
+                - classification_rpt: Classification report on the training data.
+        - If classification is False:
+            - model: The trained model.
+            - evaluation_metrics: Dictionary containing evaluation metrics.
+                - mae: Mean absolute error on the training data.
+                - mse: Mean squared error on the training data.
+                - rmse: Root mean squared error on the training data.
+                - r2: R-squared score on the training data.
+        """
     
         model.fit(x_train, y_train)
         y_pred = model.predict(x_train)
@@ -326,6 +512,26 @@ class Model:
     
 
     def evaluate_model(self, model : any, x_test : pd.DataFrame, y_test : pd.Series, classification=False):
+        """
+        Evaluate a trained machine learning model on the given test data.
+
+        Parameters:
+        - model: Trained machine learning model.
+        - x_test: Test data features (pd.DataFrame).
+        - y_test: Test data labels (pd.Series).
+        - classification: Boolean indicating if the task is classification (default: False).
+
+        Returns:
+        - evaluation_metrics: Dictionary containing evaluation metrics.
+            - If classification is True:
+                - accuracy_test: Accuracy score on the test data.
+                - precision_test: Precision score on the test data.
+                - confusion_matrix: Confusion matrix on the test data.
+                - classification_report: Classification report on the test data.
+            - If classification is False:
+                - r2_test: R-squared score on the test data.
+                - rmse_test: Root mean squared error on the test data.
+        """
 
         y_pred = model.predict(x_test)
         evaluation_metrics = {}
@@ -358,6 +564,16 @@ class Model:
     
 
     def predict_new_data_point(self, model : any, x_new : pd.DataFrame):
+        """
+        Predict new data points using a trained machine learning model.
+
+        Parameters:
+        - model: Trained machine learning model.
+        - x_new: New data points for prediction (pd.DataFrame).
+
+        Returns:
+        - y_pred: Predicted labels for the new data points.
+        """
 
         y_pred = model.predict(x_new)
         return y_pred

@@ -6,6 +6,19 @@ class nullvalueHandler:
         pass
 
     def clean_and_convert(self, X_train, features_with_null):
+        """
+        Cleans and converts specified features in X_train by:
+        1. Extracting numeric values from each feature, converting them to float.
+        2. Filling null values in each feature with its median value.
+
+        Args:
+        - X_train (DataFrame): The training data containing features to clean and convert.
+        - features_with_null (list): List of feature names in X_train that contain null values.
+
+        Returns:
+        - X_train (DataFrame): The cleaned and converted training data with null values filled.
+
+        """
         for feature in features_with_null:
             # Remove non-numeric characters and convert to numeric
             #X_train[feature] = X_train[feature].astype(str).str.extract( '(\d+)',expand=False).astype(float)
