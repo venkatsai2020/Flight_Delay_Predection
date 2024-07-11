@@ -41,3 +41,4 @@ class numericalMatrix:
     def drop_highly_correlated_features(self, feature_list):
         self.X_train_cleaned.drop(columns=feature_list, inplace=True)
         self.X_test.drop(columns=feature_list, inplace=True)
+        return self.X_train_cleaned, self.X_test
