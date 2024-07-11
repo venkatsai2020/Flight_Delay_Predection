@@ -4,7 +4,7 @@ from sklearn.preprocessing import OneHotEncoder
 class DataEncoder:
     def __init__(self, categorical_features):
         self.categorical_features = categorical_features
-        self.encoder = OneHotEncoder(sparse = False, drop='first', dtype=int, handle_unknown='ignore')
+        self.encoder = OneHotEncoder(sparse_output = False, drop='first', dtype=int, handle_unknown='ignore')
         self.X_train_encoded = None
         self.X_test_encoded = None
 
