@@ -1,7 +1,4 @@
 import numpy as np
-import pandas as pd
-
-
 class outlierHandler:
     def __init__(self, data):
         self.data = data
