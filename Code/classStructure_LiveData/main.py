@@ -1,5 +1,4 @@
 import alert
-
 from data_loader import dataLoader
 from calcDelay import Delay
 from dataSplitter import dataSplitter
@@ -14,15 +13,24 @@ from onehotEncoder import DataEncoder
 from FeatureNormalizer import  FeatureNormalizer
 def main():
     # Load data
-    file_path = r'..\..\Data\liveData.xlsx'
+    file_path = r'..\..\Data\Data_with_delays.xlsx'
     data_loader = dataLoader(file_path)
     data = data_loader.load_excel_data()
-    print("\n\n DATA SET:\n\n")
+    print("\n\n DATA SET:\n")
     print("________________________________________________________\n\n")
     print(data)
     print(data.shape)
     print(data.dtypes)
-    data.drop(columns=['Unnamed: 5'], inplace=True)
+    print("\n\n Null Values in the dataset:\n")
+    print("\n_________________________________\n")
+    print(data.isnull().sum())
+    print("\n\n Value counts in 'Actual Arrival':\n")
+    print("\n______________________________________\n\n")
+    print(data['Actual_arrival'].value_counts())
+if __name__ == "__main__":
+    main()
+
+''' data.drop(columns=['Unnamed: 5'], inplace=True)
     print("\n\n CALCULATE DELAY FROM DATASET\n\n")
     print("\n\n________________________________\n\n")
     Scheduled_arrival = data['Scheduled_arrival']
@@ -173,9 +181,5 @@ def main():
     X_train_encoded_normalized = normalizer.normalize_features(X_train_encoded)
 
     print("\n\n Normalized dataFrame:")
-    print(X_train_encoded_normalized)
+    print(X_train_encoded_normalized)'''
 
-
-
-if __name__ == "__main__":
-    main()
